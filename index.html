@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Enlace a tu archivo CSS -->
     <link rel="stylesheet" href="ui.css">
+
+    <!-- Librería para convertir DOCX a HTML/Texto -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth.js/1.6.0/mammoth.browser.min.js"></script>
+    <!-- Librerías para convertir PDF a Texto -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.mjs" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.mjs" type="module"></script>
 </head>
 <body>
     <header>
@@ -15,17 +21,18 @@
     </header>
 
     <main id="app-container" class="container">
-        <!-- Aquí se cargarán dinámicamente la lista de tests o las preguntas del test -->
         <section id="test-list-section" class="test-list-grid">
-            <!-- Las tarjetas de los tests se insertarán aquí por JavaScript -->
             <h2>Selecciona un Test</h2>
             <div id="test-cards-container" class="grid-container">
                 <!-- Tarjetas de tests -->
             </div>
+            <div id="loading-message" style="display: none; text-align: center; margin-top: 20px;">
+                <p>Cargando tests disponibles...</p>
+                <i class="fas fa-spinner fa-spin fa-2x" style="color: #3498db;"></i>
+            </div>
         </section>
 
         <section id="quiz-section" class="quiz-container" style="display: none;">
-            <!-- Aquí se mostrará el test seleccionado -->
             <h2 id="quiz-title"></h2>
             <div id="question-container">
                 <!-- Las preguntas se cargarán aquí -->
@@ -43,8 +50,8 @@
     </main>
 
     <!-- Tus scripts JavaScript -->
-    <script src="reader.js"></script>
-    <script src="parser.js"></script> <!-- De momento vacío, pero lo conservamos -->
+    <script src="reader.js" type="module"></script> <!-- MODIFICADO: Añadido type="module" -->
+    <script src="parser.js"></script> 
     <script src="ui.js"></script>
 </body>
 </html>
