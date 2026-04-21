@@ -11,10 +11,19 @@ document.addEventListener("DOMContentLoaded", async () => {
             const item = document.createElement("div");
             item.className = "test-item";
 
-            item.innerHTML = `
-                <span>${test}</span>
-                <button onclick="openTest('${test}')">Abrir</button>
-            `;
+            const nameSpan = document.createElement("span");
+            nameSpan.textContent = test;
+
+            const btn = document.createElement("button");
+            btn.textContent = "Abrir";
+
+            btn.addEventListener("click", () => {
+                const url = "tests/" + encodeURIComponent(test);
+                reader.loadFile(url);
+            });
+
+            item.appendChild(nameSpan);
+            item.appendChild(btn);
 
             listContainer.appendChild(item);
         });
@@ -24,8 +33,3 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error(error);
     }
 });
-
-function openTest(filename) {
-    const url = "tests/" + encodeURIComponent(filename);
-    reader.loadFile(url);
-}
