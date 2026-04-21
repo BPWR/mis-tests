@@ -2,6 +2,7 @@
 // Responsable de cargar la lista de tests y (ahora sí) el contenido de los tests individuales.
 
 import { getDocument, GlobalWorkerOptions } from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.mjs';
+import { parseTestContent } from './parser.js'; // Importar parseTestContent desde parser.js
 
 // Configuración del worker de PDF.js
 GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.mjs';
@@ -30,7 +31,7 @@ function getFileTypeInfo(filename) {
 }
 
 // Cargar la lista de tests desde tests.json
-async function loadTestList() {
+export async function loadTestList() { // Exportar para que ui.js pueda llamarlo si necesita
     const loadingMessage = document.getElementById('loading-message');
     if (loadingMessage) loadingMessage.style.display = 'block'; // Mostrar spinner de carga
 
@@ -53,12 +54,8 @@ async function loadTestList() {
             };
         });
         
-        if (typeof renderTestCards === 'function') {
-            renderTestCards(tests);
-        } else {
-            console.error("renderTestCards no está definida en ui.js.");
-        }
-
+        // Asumiendo que ui.js exporta renderTestCards y lo importaremos
+        // No llamamos directamente, ui.js lo importará y lo ejecutará al inicio
         return tests;
 
     } catch (error) {
@@ -76,6 +73,7 @@ async function loadTestList() {
 // Función para convertir DOCX a texto plano
 async function convertDocxToText(arrayBuffer) {
     try {
+        // mammoth es global ya que se carga directamente en index.html sin ser un módulo
         const result = await mammoth.extractRawText({ arrayBuffer: arrayBuffer });
         return result.value; // El texto extraído
     } catch (error) {
@@ -107,7 +105,7 @@ async function convertPdfToText(arrayBuffer) {
 
 
 // Función para cargar el contenido de un test específico
-async function loadTestContent(testFilePath, testType) {
+export async function loadTestContent(testFilePath, testType) { // Exportar esta función
     console.log(`Cargando contenido de: ${testFilePath} (Tipo: ${testType})`);
 
     try {
@@ -131,17 +129,11 @@ async function loadTestContent(testFilePath, testType) {
 
         console.log("Contenido plano cargado:\n", rawText);
         
-        // Pasar el texto plano a parser.js
-        if (typeof parseTestContent === 'function') {
-            return parseTestContent(rawText, testFilePath); // parser.js devolverá el objeto de test
-        } else {
-            console.error("parseTestContent no está definida en parser.js.");
-            throw new Error("La función de parseo no está disponible.");
-        }
+        // Usar la función importada de parser.js
+        return parseTestContent(rawText, testFilePath); 
 
     } catch (error) {
         console.error(`Error al cargar o procesar el test ${testFilePath}:`, error);
-        // Devuelve un mock de error para que la UI pueda manejarlo
         return {
             title: testFilePath.split('/').pop().replace(/\.(pdf|docx|doc|txt)$/i, '').replace(/_/g, ' '),
             questions: [{ questionText: `Error al cargar test: ${error.message}`, options: ["Error"], correctAnswer: "Error" }]
@@ -149,9 +141,5 @@ async function loadTestContent(testFilePath, testType) {
     }
 }
 
-
-// Llama a cargar la lista de tests cuando el DOM esté completamente cargado
-document.addEventListener('DOMContentLoaded', loadTestList);
-
-// Exportar funciones para que ui.js pueda llamarlas
-window.loadTestContent = loadTestContent;
+// No llamamos a loadTestList directamente aquí, ui.js lo hará al inicio
+// document.addEventListener('DOMContentLoaded', loadTestList);
