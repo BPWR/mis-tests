@@ -7,6 +7,11 @@
 
     <!-- PDF.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script>
+        window.pdfjsLib = window.pdfjsLib || {};
+        pdfjsLib.GlobalWorkerOptions.workerSrc =
+            "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js";
+    </script>
 
     <!-- Mammoth.js (lector DOCX compatible con GitHub Pages) -->
     <script src="https://unpkg.com/mammoth/mammoth.browser.min.js"></script>
@@ -54,6 +59,4 @@
 
     <script src="parser.js"></script>
     <script src="reader.js"></script>
-    <script src="ui.js"></script>
-</body>
-</html>
+    <script src="ui.js">
