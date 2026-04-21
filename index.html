@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Tests Interactivos</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="ui.css">
+    <meta charset="UTF-8">
+    <title>Selecciona un test</title>
+    <link rel="stylesheet" href="ui.css">
+
+    <!-- Librerías necesarias -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="https://unpkg.com/@nativedocuments/docx-wasm@latest/dist/docx-wasm.js"></script>
 </head>
-
 <body>
+    <h1>Selecciona un test</h1>
+    <div id="test-list"></div>
 
-<div id="app"></div>
-
-<script src="reader.js"></script>
-<script src="parser.js"></script>
-<script src="ui.js"></script>
-
+    <script src="parser.js"></script>
+    <script src="reader.js"></script>
+    <script src="ui.js"></script>
 </body>
 </html>
+
