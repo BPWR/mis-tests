@@ -1,11 +1,14 @@
 // ui.js
 // Responsable de la renderización de la interfaz de usuario, interacción y navegación.
 
+import { loadTestList, loadTestContent } from './reader.js'; // Importar funciones de reader.js
+
 const testListSection = document.getElementById('test-list-section');
 const testCardsContainer = document.getElementById('test-cards-container');
 const quizSection = document.getElementById('quiz-section');
 const quizTitle = document.getElementById('quiz-title');
 const questionContainer = document.getElementById('question-container');
+const quizNavigation = document.getElementById('quiz-navigation'); // CORREGIDO: Añadido aquí
 const prevQuestionButton = document.getElementById('prev-question');
 const nextQuestionButton = document.getElementById('next-question');
 const submitQuizButton = document.getElementById('submit-quiz');
@@ -19,6 +22,10 @@ let userAnswers = {}; // Para almacenar las respuestas del usuario { preguntaInd
 // Función para renderizar las tarjetas de tests
 function renderTestCards(tests) {
     testCardsContainer.innerHTML = ''; // Limpiar el contenedor actual
+    if (tests.length === 0) {
+        testCardsContainer.innerHTML = '<p style="text-align: center;">No se encontraron tests.</p>';
+        return;
+    }
     tests.forEach(test => {
         const card = document.createElement('div');
         card.className = `test-card type-${test.type}`; // Añadir clase de tipo para estilos específicos
@@ -45,10 +52,18 @@ async function startTest(test) {
     backToListButton.style.display = 'block'; // Mostrar el botón de volver
     quizResult.style.display = 'none'; // Ocultar resultados anteriores
 
+    // Mostrar un spinner o mensaje de carga mientras se procesa el archivo
+    questionContainer.innerHTML = '<div style="text-align: center; margin-top: 50px;"><i class="fas fa-spinner fa-spin fa-3x" style="color: #3498db;"></i><p>Procesando test...</p></div>';
+    quizNavigation.style.display = 'none'; // Ocultar navegación mientras carga
+
     try {
-        // Cargar el contenido del test usando la función de reader.js
-        // AVISO: loadTestContent de reader.js actualmente devuelve datos MOCK (ejemplo)
-        currentTest = await loadTestContent(test.filepath); 
+        // Cargar el contenido del test usando la función importada de reader.js
+        currentTest = await loadTestContent(test.filepath, test.type); 
+        
+        if (!currentTest || !currentTest.questions || currentTest.questions.length === 0) {
+            throw new Error("El test no tiene preguntas o está vacío después del procesamiento.");
+        }
+
         quizTitle.textContent = currentTest.title;
         currentQuestionIndex = 0;
         userAnswers = {}; // Resetear respuestas para el nuevo test
@@ -59,7 +74,7 @@ async function startTest(test) {
     } catch (error) {
         console.error("Error al cargar el test:", error);
         quizTitle.textContent = `Error al cargar "${test.title}".`;
-        questionContainer.innerHTML = '<p style="color: red; text-align: center;">No se pudo cargar el test. Inténtalo de nuevo más tarde.</p>';
+        questionContainer.innerHTML = `<p style="color: red; text-align: center;">No se pudo cargar el test: ${error.message}. Asegúrate de que el formato sea correcto y el archivo sea accesible.</p>`;
         quizNavigation.style.display = 'none';
     }
 }
@@ -90,7 +105,7 @@ function renderQuestion(index) {
     optionsGrid.querySelectorAll('.option-button').forEach(button => {
         button.addEventListener('click', (event) => selectOption(event.target, index));
         
-        // **Marcar la opción seleccionada si ya existe una respuesta para esta pregunta**
+        // Marcar la opción seleccionada si ya existe una respuesta para esta pregunta
         if (userAnswers[index] && userAnswers[index] === button.dataset.option) {
             button.classList.add('selected');
         }
@@ -138,16 +153,6 @@ function updateNavigationButtons() {
     prevQuestionButton.style.display = (currentQuestionIndex > 0) ? 'block' : 'none';
     nextQuestionButton.style.display = (currentQuestionIndex < currentTest.questions.length - 1) ? 'block' : 'none';
     submitQuizButton.style.display = (currentQuestionIndex === currentTest.questions.length - 1) ? 'block' : 'none';
-    
-    // Si estamos en la última pregunta y hemos respondido todas, podríamos mostrar "Finalizar"
-    // Esto es un ejemplo, se puede ajustar la lógica.
-    // if (currentQuestionIndex === currentTest.questions.length - 1 && Object.keys(userAnswers).length === currentTest.questions.length) {
-    //     submitQuizButton.style.display = 'block';
-    // } else if (currentQuestionIndex === currentTest.questions.length - 1) {
-    //     submitQuizButton.style.display = 'block'; // Mostrarlo aunque no haya respondido todas
-    // } else {
-    //     submitQuizButton.style.display = 'none';
-    // }
 }
 
 // Función para finalizar el test y mostrar resultados
@@ -170,10 +175,8 @@ submitQuizButton.addEventListener('click', () => {
         <p>Fallos: ${currentTest.questions.length - score}</p>
     `;
 
-    // **Opcional: Mostrar feedback de respuestas correctas/incorrectas al finalizar**
-    // Podrías iterar de nuevo sobre las preguntas y mostrar el feedback en cada una
-    // Por simplicidad, aquí solo mostramos el resultado general, pero se puede expandir.
-    // Para la vista de revisión, se podría crear una nueva función.
+    // Opcional: Mostrar feedback de respuestas correctas/incorrectas al finalizar
+    // Esto es un ejemplo, se puede ajustar la lógica para una vista de revisión.
 });
 
 // Botón para volver a la lista de tests
@@ -190,6 +193,9 @@ backToListButton.addEventListener('click', () => {
 });
 
 
-// Exportar funciones si se usan en otros módulos (asegura que reader.js pueda llamar a renderTestCards)
-window.renderTestCards = renderTestCards; 
-// window.startTest = startTest; // Podría ser útil para depuración
+// Llama a cargar la lista de tests cuando el DOM esté completamente cargado
+// Ahora ui.js se encarga de iniciar el proceso.
+document.addEventListener('DOMContentLoaded', async () => {
+    const tests = await loadTestList(); // Cargar la lista de tests al inicio
+    renderTestCards(tests); // Renderizar las tarjetas
+});
