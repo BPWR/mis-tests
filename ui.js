@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 function openTest(filename) {
-    const url = `tests/${filename}`;
+    const url = `tests/${encodeURIComponent(filename)}`;
     reader.loadFile(url);
 }
 
