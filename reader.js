@@ -31,9 +31,9 @@ function getFileTypeInfo(filename) {
 }
 
 // Cargar la lista de tests desde tests.json
-export async function loadTestList() { // Exportar para que ui.js pueda llamarlo si necesita
+export async function loadTestList() { 
     const loadingMessage = document.getElementById('loading-message');
-    if (loadingMessage) loadingMessage.style.display = 'block'; // Mostrar spinner de carga
+    if (loadingMessage) loadingMessage.style.display = 'block';
 
     try {
         const response = await fetch(TESTS_JSON_PATH);
@@ -54,8 +54,7 @@ export async function loadTestList() { // Exportar para que ui.js pueda llamarlo
             };
         });
         
-        // Asumiendo que ui.js exporta renderTestCards y lo importaremos
-        // No llamamos directamente, ui.js lo importará y lo ejecutará al inicio
+        // Esta función no llama directamente a renderTestCards; ui.js lo hará.
         return tests;
 
     } catch (error) {
@@ -66,16 +65,19 @@ export async function loadTestList() { // Exportar para que ui.js pueda llamarlo
         }
         return [];
     } finally {
-        if (loadingMessage) loadingMessage.style.display = 'none'; // Ocultar spinner de carga
+        if (loadingMessage) loadingMessage.style.display = 'none';
     }
 }
 
 // Función para convertir DOCX a texto plano
 async function convertDocxToText(arrayBuffer) {
     try {
-        // mammoth es global ya que se carga directamente en index.html sin ser un módulo
-        const result = await mammoth.extractRawText({ arrayBuffer: arrayBuffer });
-        return result.value; // El texto extraído
+        // Acceder a mammoth a través de window, ya que se carga como script tradicional
+        if (typeof window.mammoth === 'undefined') {
+            throw new Error("mammoth.js no está cargado o no es accesible.");
+        }
+        const result = await window.mammoth.extractRawText({ arrayBuffer: arrayBuffer });
+        return result.value;
     } catch (error) {
         console.error("Error al convertir DOCX:", error);
         throw new Error("Fallo en la conversión de DOCX.");
@@ -90,10 +92,9 @@ async function convertPdfToText(arrayBuffer) {
         for (let i = 1; i <= pdf.numPages; i++) {
             const page = await pdf.getPage(i);
             const textContent = await page.getTextContent();
-            // Une el texto de la página, añadiendo un espacio entre elementos o un salto de línea si es un bloque.
             fullText += textContent.items.map(s => s.str).join(' ');
             if (i < pdf.numPages) {
-                fullText += '\n'; // Añadir un salto de línea entre páginas
+                fullText += '\n';
             }
         }
         return fullText;
@@ -105,7 +106,7 @@ async function convertPdfToText(arrayBuffer) {
 
 
 // Función para cargar el contenido de un test específico
-export async function loadTestContent(testFilePath, testType) { // Exportar esta función
+export async function loadTestContent(testFilePath, testType) { 
     console.log(`Cargando contenido de: ${testFilePath} (Tipo: ${testType})`);
 
     try {
@@ -115,10 +116,10 @@ export async function loadTestContent(testFilePath, testType) { // Exportar esta
         }
 
         let rawText = '';
-        const arrayBuffer = await response.arrayBuffer(); // Obtener como ArrayBuffer para DOCX/PDF
+        const arrayBuffer = await response.arrayBuffer(); 
 
         if (testType === 'txt') {
-            rawText = new TextDecoder().decode(arrayBuffer); // Convertir ArrayBuffer a texto para TXT
+            rawText = new TextDecoder().decode(arrayBuffer);
         } else if (testType === 'docx') {
             rawText = await convertDocxToText(arrayBuffer);
         } else if (testType === 'pdf') {
@@ -129,7 +130,6 @@ export async function loadTestContent(testFilePath, testType) { // Exportar esta
 
         console.log("Contenido plano cargado:\n", rawText);
         
-        // Usar la función importada de parser.js
         return parseTestContent(rawText, testFilePath); 
 
     } catch (error) {
@@ -141,5 +141,4 @@ export async function loadTestContent(testFilePath, testType) { // Exportar esta
     }
 }
 
-// No llamamos a loadTestList directamente aquí, ui.js lo hará al inicio
-// document.addEventListener('DOMContentLoaded', loadTestList);
+// No se usa document.addEventListener('DOMContentLoaded') aquí porque ui.js lo maneja.
