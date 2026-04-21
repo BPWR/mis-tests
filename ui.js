@@ -1,134 +1,173 @@
-const numeroInput = document.getElementById('numero');
-const tituloInput = document.getElementById('titulo');
-const valorInput = document.getElementById('valor');
-const addItemButton = document.getElementById('addItemButton');
-const dataTableBody = document.querySelector('#dataTable tbody');
-const jsonOutput = document.getElementById('jsonOutput');
-const messageBox = document.getElementById('messageBox');
-const clearAllButton = document.getElementById('clearAllButton');
-const copyJsonButton = document.getElementById('copyJsonButton');
+// ui.js
+// Responsable de la renderización de la interfaz de usuario, interacción y navegación.
 
-let data = []; // Array donde se almacenarán los ítems de la tabla
+const testListSection = document.getElementById('test-list-section');
+const testCardsContainer = document.getElementById('test-cards-container');
+const quizSection = document.getElementById('quiz-section');
+const quizTitle = document.getElementById('quiz-title');
+const questionContainer = document.getElementById('question-container');
+const prevQuestionButton = document.getElementById('prev-question');
+const nextQuestionButton = document.getElementById('next-question');
+const submitQuizButton = document.getElementById('submit-quiz');
+const quizResult = document.getElementById('quiz-result');
+const backToListButton = document.getElementById('back-to-list');
 
-// Función para mostrar mensajes de éxito o error
-function showMessage(msg, type) {
-    messageBox.textContent = msg;
-    messageBox.className = `message ${type}`; // Remueve otras clases y añade la nueva
-    messageBox.style.display = 'flex'; // Muestra el mensaje
-    
-    // Ocultar el mensaje después de 3 segundos
-    setTimeout(() => {
-        messageBox.style.display = 'none';
-    }, 3000);
+
+let currentTest = null;
+let currentQuestionIndex = 0;
+let userAnswers = {}; // Para almacenar las respuestas del usuario
+
+// Función para renderizar las tarjetas de tests
+function renderTestCards(tests) {
+    testCardsContainer.innerHTML = ''; // Limpiar el contenedor actual
+    tests.forEach(test => {
+        const card = document.createElement('div');
+        card.className = `test-card type-${test.type}`;
+        card.dataset.filename = test.filename; // Guardar el nombre del archivo para referencia
+
+        card.innerHTML = `
+            <i class="${test.icon} test-card-icon"></i>
+            <h3>${test.title}</h3>
+            <p>Tipo: ${test.type.toUpperCase()}</p>
+            <span class="file-extension">${test.type.toUpperCase()}</span>
+        `;
+        card.addEventListener('click', () => startTest(test)); // Asignar evento al hacer clic
+        testCardsContainer.appendChild(card);
+    });
 }
 
-// Función para actualizar la tabla y el JSON
-function updateDisplay() {
-    // Limpiar la tabla
-    dataTableBody.innerHTML = '';
+// Función para iniciar un test seleccionado
+async function startTest(test) {
+    // Ocultar la lista de tests y mostrar la sección del quiz
+    testListSection.style.display = 'none';
+    quizSection.style.display = 'block';
+    
+    quizTitle.textContent = `Cargando: ${test.title}...`;
+    backToListButton.style.display = 'block'; // Mostrar el botón de volver
 
-    // Llenar la tabla con los datos actuales
-    data.forEach((item, index) => {
-        const row = dataTableBody.insertRow();
-        row.insertCell().textContent = item.numero !== null ? item.numero : ''; // Mostrar vacío si es null
-        row.insertCell().textContent = item.titulo;
-        row.insertCell().textContent = item.valor;
-        
-        const actionsCell = row.insertCell();
-        const deleteButton = document.createElement('button');
-        deleteButton.innerHTML = '<i class="fas fa-trash-alt"></i>'; // Icono de papelera de Font Awesome
-        deleteButton.className = 'delete-button';
-        deleteButton.onclick = () => deleteItem(index); // Asigna la función de borrar al hacer clic
-        actionsCell.appendChild(deleteButton);
+    try {
+        // Cargar el contenido del test usando la función de reader.js
+        // AVISO: loadTestContent de reader.js actualmente devuelve datos MOck (ejemplo)
+        currentTest = await loadTestContent(test.filepath); 
+        quizTitle.textContent = currentTest.title;
+        currentQuestionIndex = 0;
+        userAnswers = {}; // Resetear respuestas
+        renderQuestion(currentQuestionIndex);
+        updateNavigationButtons();
+    } catch (error) {
+        console.error("Error al cargar el test:", error);
+        quizTitle.textContent = `Error al cargar "${test.title}".`;
+        // Aquí podrías mostrar un mensaje de error más amigable en la UI
+    }
+}
+
+// Función para renderizar una pregunta específica
+function renderQuestion(index) {
+    questionContainer.innerHTML = ''; // Limpiar preguntas anteriores
+    const questionData = currentTest.questions[index];
+    if (!questionData) {
+        questionContainer.innerHTML = '<p>No hay preguntas disponibles.</p>';
+        return;
+    }
+
+    const questionCard = document.createElement('div');
+    questionCard.className = 'question-card';
+    questionCard.innerHTML = `
+        <p class="question-text"><strong>Pregunta ${index + 1}:</strong> ${questionData.questionText}</p>
+        <div class="options-grid" id="options-for-q${index}">
+            ${questionData.options.map((option, optIndex) => `
+                <button class="option-button" data-option="${option}">${String.fromCharCode(97 + optIndex)}) ${option}</button>
+            `).join('')}
+        </div>
+    `;
+    questionContainer.appendChild(questionCard);
+
+    // Asignar eventos de clic a las opciones
+    const optionButtons = questionCard.querySelectorAll('.option-button');
+    optionButtons.forEach(button => {
+        button.addEventListener('click', (event) => selectOption(event.target, index));
+        // Si ya hay una respuesta, marcarla
+        if (userAnswers[index] === button.dataset.option) {
+            button.classList.add('selected'); // Puedes añadir una clase 'selected' para indicar la elección
+        }
     });
 
-    // Actualizar el área JSON con formato legible (indentación de 2 espacios)
-    jsonOutput.textContent = JSON.stringify(data, null, 2);
+    updateNavigationButtons();
 }
 
-// Evento para el botón "Añadir Ítem"
-addItemButton.addEventListener('click', () => {
-    const numero = numeroInput.value.trim();
-    const titulo = tituloInput.value.trim();
-    const valor = valorInput.value.trim();
-
-    // Validaciones
-    if (!numero && !titulo) {
-        showMessage('Por favor, introduce un Número o un Título.', 'error');
-        return;
-    }
-    if (numero !== '' && isNaN(parseInt(numero))) { // Si hay número, validar que sea numérico
-        showMessage('El campo "Número" debe ser un valor numérico válido.', 'error');
-        return;
-    }
-
-    const newItem = {
-        numero: numero !== '' ? parseInt(numero) : null, // Convertir a número si no está vacío, sino null
-        titulo: titulo,
-        valor: valor
-    };
-
-    data.push(newItem); // Añadir el nuevo ítem al array
-    updateDisplay(); // Refrescar la UI
-
-    // Limpiar los campos después de añadir
-    numeroInput.value = '';
-    tituloInput.value = '';
-    valorInput.value = '';
-    
-    showMessage('Ítem añadido con éxito.', 'success');
-});
-
-// Función para borrar un ítem por su índice en el array
-function deleteItem(index) {
-    if (confirm('¿Estás seguro de que quieres eliminar este ítem?')) {
-        data.splice(index, 1); // Eliminar 1 elemento desde la posición `index`
-        updateDisplay();
-        showMessage('Ítem eliminado.', 'success');
-    }
+// Función para seleccionar una opción de respuesta
+function selectOption(selectedButton, questionIndex) {
+    const optionsContainer = document.getElementById(`options-for-q${questionIndex}`);
+    optionsContainer.querySelectorAll('.option-button').forEach(button => {
+        button.classList.remove('selected'); // Quitar la selección anterior
+    });
+    selectedButton.classList.add('selected'); // Marcar la nueva selección
+    userAnswers[questionIndex] = selectedButton.dataset.option; // Guardar la respuesta del usuario
 }
 
-// Evento para el botón "Limpiar Todo"
-clearAllButton.addEventListener('click', () => {
-    if (confirm('¿Estás seguro de que quieres limpiar todos los ítems?')) {
-        data = []; // Vaciar el array de datos
-        updateDisplay();
-        showMessage('Todos los ítems han sido eliminados.', 'success');
+// Funciones de navegación
+prevQuestionButton.addEventListener('click', () => {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        renderQuestion(currentQuestionIndex);
     }
 });
 
-// Evento para el botón "Copiar JSON"
-copyJsonButton.addEventListener('click', () => {
-    navigator.clipboard.writeText(jsonOutput.textContent)
-        .then(() => {
-            showMessage('JSON copiado al portapapeles.', 'success');
-        })
-        .catch(err => {
-            showMessage('Error al copiar el JSON: ' + err, 'error');
-            console.error('Error al copiar el JSON:', err); // Para depuración
-        });
+nextQuestionButton.addEventListener('click', () => {
+    if (currentQuestionIndex < currentTest.questions.length - 1) {
+        currentQuestionIndex++;
+        renderQuestion(currentQuestionIndex);
+    }
 });
 
-// Inicializar la pantalla al cargar la página (en caso de que quieras cargar datos iniciales)
-updateDisplay();
+// Actualizar visibilidad de botones de navegación
+function updateNavigationButtons() {
+    if (!currentTest || !currentTest.questions || currentTest.questions.length === 0) {
+        prevQuestionButton.style.display = 'none';
+        nextQuestionButton.style.display = 'none';
+        submitQuizButton.style.display = 'none';
+        return;
+    }
 
-// Puedes añadir aquí la lógica para cargar datos desde tests.json si lo necesitas
-// Por ejemplo:
-/*
-async function loadInitialData() {
-    try {
-        const response = await fetch('tests.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+    prevQuestionButton.style.display = (currentQuestionIndex > 0) ? 'block' : 'none';
+    nextQuestionButton.style.display = (currentQuestionIndex < currentTest.questions.length - 1) ? 'block' : 'none';
+    submitQuizButton.style.display = (currentQuestionIndex === currentTest.questions.length - 1) ? 'block' : 'none';
+}
+
+// Función para finalizar el test y mostrar resultados
+submitQuizButton.addEventListener('click', () => {
+    let score = 0;
+    currentTest.questions.forEach((question, index) => {
+        if (userAnswers[index] === question.correctAnswer) {
+            score++;
         }
-        const initialData = await response.json();
-        data = initialData; // O fusionarlos: data = [...data, ...initialData];
-        updateDisplay();
-        showMessage('Datos iniciales cargados desde tests.json', 'info');
-    } catch (error) {
-        console.error('No se pudieron cargar los datos de tests.json:', error);
-        // showMessage('No se pudieron cargar datos iniciales.', 'error');
-    }
-}
-loadInitialData(); // Llama a esta función al inicio si quieres cargar tests.json
-*/
+    });
+
+    questionContainer.style.display = 'none';
+    quizNavigation.style.display = 'none'; // Ocultar botones de navegación
+    quizResult.style.display = 'block';
+    
+    quizResult.innerHTML = `
+        <h3>Test Finalizado!</h3>
+        <p>Tu puntuación: ${score} de ${currentTest.questions.length}</p>
+    `;
+});
+
+// Botón para volver a la lista de tests
+backToListButton.addEventListener('click', () => {
+    testListSection.style.display = 'block';
+    quizSection.style.display = 'none';
+    quizResult.style.display = 'none'; // Ocultar resultados si estaban visibles
+    questionContainer.style.display = 'block'; // Mostrar contenedor de preguntas por si acaso
+    backToListButton.style.display = 'none'; // Ocultar este botón
+    currentTest = null;
+    currentQuestionIndex = 0;
+    userAnswers = {};
+});
+
+
+// Exportar la función renderTestCards para que reader.js pueda llamarla
+// Es necesario que reader.js se cargue *antes* de ui.js para que esta llamada funcione directamente
+// O, de lo contrario, usar un sistema de eventos.
+window.renderTestCards = renderTestCards; // Hace la función global para que reader.js la encuentre
+window.startTest = startTest; // También útil para depuración o llamadas externas
