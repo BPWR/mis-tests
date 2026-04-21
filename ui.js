@@ -29,4 +29,3 @@ function openTest(filename) {
     const url = `tests/${encodeURIComponent(filename)}`;
     reader.loadFile(url);
 }
-
