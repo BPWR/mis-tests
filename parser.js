@@ -39,7 +39,7 @@ export function parseTestContent(rawText, testFilePath) { // Exportar la funció
                     correctAnswer: null
                 };
             } else if (currentQuestion) {
-                // CORREGIDO: Expresión regular para opciones. Quitado el ')' extra.
+                // CORREGIDO: Expresión regular para opciones. Removido el paréntesis incorrecto.
                 const optionMatch = line.match(/^[a-dA-D]\)\s*(.+)$/); // Ej: "a) Opción A"
                 if (optionMatch) {
                     currentQuestion.options.push(optionMatch[1].trim()); // Capturar el texto de la opción
