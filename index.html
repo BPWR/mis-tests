@@ -50,8 +50,8 @@
     </main>
 
     <!-- Tus scripts JavaScript -->
-    <script src="reader.js" type="module"></script> <!-- MODIFICADO: Añadido type="module" -->
-    <script src="parser.js"></script> 
-    <script src="ui.js"></script>
+    <script src="parser.js"></script> <!-- parser.js no necesita ser módulo si ui.js lo importa globalmente -->
+    <script src="reader.js" type="module"></script> 
+    <script src="ui.js" type="module"></script> <!-- MODIFICADO: Añadido type="module" -->
 </body>
 </html>
