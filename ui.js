@@ -11,11 +11,9 @@ document.addEventListener("DOMContentLoaded", async () => {
             const item = document.createElement("div");
             item.className = "test-item";
 
-            const safeName = test.replace(/"/g, '&quot;');
-
             item.innerHTML = `
-                <span>${safeName}</span>
-                <button onclick="openTest('${safeName}')">Abrir</button>
+                <span>${test}</span>
+                <button onclick="openTest('${test}')">Abrir</button>
             `;
 
             listContainer.appendChild(item);
