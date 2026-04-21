@@ -5,17 +5,55 @@
     <title>Selecciona un test</title>
     <link rel="stylesheet" href="ui.css">
 
-    <!-- Librerías necesarias -->
+    <!-- PDF.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
-    <script src="https://unpkg.com/@nativedocuments/docx-wasm@latest/dist/docx-wasm.js"></script>
+
+    <!-- Mammoth.js (lector DOCX compatible con GitHub Pages) -->
+    <script src="https://unpkg.com/mammoth/mammoth.browser.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        #test-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .test-item {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .test-item button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 14px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .test-item button:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Selecciona un test</h1>
-    <div id="test-list"></div>
+    <div id="test-list">Cargando tests...</div>
 
     <script src="parser.js"></script>
     <script src="reader.js"></script>
     <script src="ui.js"></script>
 </body>
 </html>
-
