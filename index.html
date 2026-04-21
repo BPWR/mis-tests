@@ -2,61 +2,67 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Selecciona un test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIS TESTS - Mejorado</title>
+    <!-- Enlace a Font Awesome para los iconos (papelera, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Enlace a tu archivo CSS -->
     <link rel="stylesheet" href="ui.css">
-
-    <!-- PDF.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
-    <script>
-        window.pdfjsLib = window.pdfjsLib || {};
-        pdfjsLib.GlobalWorkerOptions.workerSrc =
-            "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js";
-    </script>
-
-    <!-- Mammoth.js (lector DOCX compatible con GitHub Pages) -->
-    <script src="https://unpkg.com/mammoth/mammoth.browser.min.js"></script>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            background: #f5f5f5;
-        }
-        h1 {
-            margin-bottom: 20px;
-        }
-        #test-list {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-        .test-item {
-            background: white;
-            padding: 12px;
-            border-radius: 6px;
-            border: 1px solid #ddd;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .test-item button {
-            background: #007bff;
-            color: white;
-            border: none;
-            padding: 8px 14px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .test-item button:hover {
-            background: #0056b3;
-        }
-    </style>
 </head>
-
 <body>
-    <h1>Selecciona un test</h1>
-    <div id="test-list">Cargando tests...</div>
+    <div class="container">
+        <h1>MIS TESTS</h1>
 
-    <script src="parser.js"></script>
-    <script src="reader.js"></script>
-    <script src="ui.js">
+        <div class="input-section">
+            <h2>Añadir Nuevo Ítem</h2>
+            <div class="form-group">
+                <div class="flex-grow-1">
+                    <label for="numero">Número</label>
+                    <input type="number" id="numero" placeholder="Ej: 1">
+                </div>
+                <div class="flex-grow-1">
+                    <label for="titulo">Título</label>
+                    <input type="text" id="titulo" placeholder="Ej: Prueba de Usuario">
+                </div>
+                <div class="flex-grow-1">
+                    <label for="valor">Valor</label>
+                    <input type="text" id="valor" placeholder="Ej: Dato adicional">
+                </div>
+                <button id="addItemButton">Añadir Ítem</button>
+            </div>
+            <div id="messageBox" class="message"></div>
+        </div>
+
+        <div class="table-section">
+            <h2>Ítems de Prueba</h2>
+            <div class="table-container">
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Número</th>
+                            <th>Título</th>
+                            <th>Valor</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Aquí se añadirán las filas de la tabla mediante JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            <button id="clearAllButton">Limpiar Todo</button>
+        </div>
+
+        <div class="json-section">
+            <div class="json-header">
+                <h2>Resultados JSON</h2>
+                <button id="copyJsonButton">Copiar JSON</button>
+            </div>
+            <pre id="jsonOutput"></pre>
+        </div>
+    </div>
+
+    <!-- Enlace a tu archivo JavaScript -->
+    <script src="ui.js"></script>
+</body>
+</html>
