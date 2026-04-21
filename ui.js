@@ -11,9 +11,11 @@ document.addEventListener("DOMContentLoaded", async () => {
             const item = document.createElement("div");
             item.className = "test-item";
 
+            const safeName = test.replace(/"/g, '&quot;');
+
             item.innerHTML = `
-                <span>${test}</span>
-                <button onclick="openTest('${test}')">Abrir</button>
+                <span>${safeName}</span>
+                <button onclick="openTest('${safeName}')">Abrir</button>
             `;
 
             listContainer.appendChild(item);
@@ -26,6 +28,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 function openTest(filename) {
-    const url = `tests/${encodeURIComponent(filename)}`;
+    const url = "tests/" + encodeURIComponent(filename);
     reader.loadFile(url);
 }
