@@ -1,9 +1,17 @@
 [
-  "Test_1-1_Estatutos_ADDA.txt", 
+  "Test_1-1_Estatutos_ADDA.txt",
+  "Test_1-2_Estatutos_ADDA.txt",
   "Test_2-1_Tema_2.txt",
+  "Test_2-2_Tema_2.txt",
   "Test_3-1_Tema_9.txt",
+  "Test_3-2_Tema_9.txt",
   "Test_4-1_Tema_10_CONTRATOS.txt",
+  "Test_4-2_Tema_10_CONTRATOS.txt",
   "Test_5-1_Tema_11_CONTRATOS.txt",
+  "Test_5-2_Tema_11_CONTRATOS.txt",
   "Test_6-1_Tema_12_CONTRATOS.txt",
-  "Test_7-1_Tema_13_CONTRATOS.txt"
+  "Test_6-2_Tema_12_CONTRATOS.txt",
+  "Test_7-1_Tema_13_CONTRATOS.txt",
+  "Test_8-1_Tema_16.txt", 
+  "Test_9-1_Tema_18_ESPECTACULOS_PUBLICOS.txt"
 ]
