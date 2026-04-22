@@ -4,14 +4,37 @@
 export function parseTestContent(rawText, testFilePath) { // Exportar la función
     console.log("Parseando el siguiente texto:\n", rawText);
 
+    // --- PRE-PROCESAMIENTO: Asegurarse de que cada pregunta empiece en una nueva línea ---
+    // Esto es crucial porque en tu formato, a veces el número de la siguiente pregunta
+    // aparece en la misma línea que la última opción de la pregunta anterior.
+    let preprocessedText = rawText.replace(/(\d+)\.\s*(.+?)?\s*([a-dA-D][\)\.\s]\s*.+?)?\s*(\d+\.\s*)/g, (match, qNum1, qText1, optionText1, qNum2) => {
+        // match: toda la coincidencia (ej. "d) Opción D. 5. ¿Pregunta 5?")
+        // qNum1: Número de la primera pregunta (ej. "4")
+        // qText1: Texto de la primera pregunta (puede ser undefined si ya está en opciones)
+        // optionText1: La última opción de la pregunta anterior (ej. "d) Opción D.")
+        // qNum2: El inicio de la siguiente pregunta (ej. "5. ")
+
+        // El objetivo es insertar un salto de línea antes de qNum2 si no hay ya uno
+        if (qNum2) {
+            return `${match.substring(0, match.lastIndexOf(qNum2))}\n${qNum2}`;
+        }
+        return match; // Si no hay siguiente pregunta, devolver como está
+    });
+    // Una segunda pasada para casos donde las opciones terminan sin punto y la pregunta sigue inmediatamente
+    preprocessedText = preprocessedText.replace(/([a-dA-D][\)\.\s]\s*.+?)(\s*\d+\.\s*)/g, (match, optionPart, nextQuestionPart) => {
+        return `${optionPart}\n${nextQuestionPart}`;
+    });
+
+    // Asegurarse de que cada opción esté en su propia línea
+    preprocessedText = preprocessedText.replace(/([a-dA-D][\)\.\s]\s*)([a-dA-D][\)\.\s]\s*)/g, '$1\n$2');
+
+
+    // Luego, dividir por líneas y limpiar espacios como antes
+    const lines = preprocessedText.split('\n').map(line => line.trim()).filter(line => line !== '');
+
     const questions = [];
     let currentQuestion = null;
     
-    // Separamos las líneas y las limpiamos de espacios extra al principio/final.
-    // Importante: no filtramos líneas vacías aquí aún, porque las necesitamos para detectar el final de una pregunta
-    // o el inicio de la sección de respuestas.
-    const lines = rawText.split('\n').map(line => line.trim());
-
     const testTitle = testFilePath.split('/').pop().replace(/\.(pdf|docx|doc|txt)$/i, '').replace(/_/g, ' ');
 
     let parsingAnswersSection = false;
@@ -21,23 +44,10 @@ export function parseTestContent(rawText, testFilePath) { // Exportar la funció
     let potentialAnswersSectionStart = false; 
 
     for (const line of lines) {
-        // Ignorar líneas completamente vacías, a menos que estemos buscando el separador de secciones
-        if (line === '' && !parsingAnswersSection && currentQuestion) {
-            // Si hay una línea vacía y ya tenemos una pregunta,
-            // podría ser el separador antes de las respuestas.
-            potentialAnswersSectionStart = true;
-            continue; // Saltar a la siguiente línea
-        }
-        if (line === '' && parsingAnswersSection) {
-            // Si ya estamos en la sección de respuestas, las líneas vacías son irrelevantes
-            continue;
-        }
-
         // Detectar el inicio de la sección de respuestas
         // Buscamos un patrón como "1. A" que suele aparecer después de una pausa.
-        // Reiniciamos potentialAnswersSectionStart cada vez que encontramos una pregunta o una opción.
         const answerMatchCandidate = line.match(/^(\d+)\.\s*([a-dA-D])[\)\s.]?$/i);
-        if (answerMatchCandidate && potentialAnswersSectionStart) {
+        if (answerMatchCandidate && (potentialAnswersSectionStart || line.startsWith("1.") && questions.length > 0)) {
             if (currentQuestion) { // Asegurarse de guardar la última pregunta si existe
                 questions.push(currentQuestion);
                 currentQuestion = null;
@@ -71,19 +81,21 @@ export function parseTestContent(rawText, testFilePath) { // Exportar la funció
                 };
                 potentialAnswersSectionStart = false; // Es una pregunta, no un inicio de respuestas
             } else if (currentQuestion) {
-                // Modificado: El regex de opciones ahora acepta el paréntesis ')' o ningún caracter extra,
+                // El regex de opciones ahora acepta el paréntesis ')' o ningún caracter extra,
                 // seguido del texto de la opción.
                 const optionMatch = line.match(/^[a-dA-D][\)\.\s]\s*(.+)$/); // Ej: "a) Opción A", "a. Opción A", "a Opción A"
                 if (optionMatch) {
                     currentQuestion.options.push(optionMatch[1].trim()); // Capturar el texto de la opción
                     potentialAnswersSectionStart = false; // Es una opción, no un inicio de respuestas
                 }
+            } else if (line.trim() === '') { // Si encontramos una línea vacía Y NO hay una pregunta activa
+                potentialAnswersSectionStart = true; // Podría ser el separador antes de las respuestas
             }
         }
     }
 
     // Asegurarse de guardar la última pregunta si existe y no se ha guardado
-    if (currentQuestion && !parsingAnswersSection) {
+    if (currentQuestion) { // Ya que filter(line => line !== '') fue al final
         questions.push(currentQuestion);
     }
 
