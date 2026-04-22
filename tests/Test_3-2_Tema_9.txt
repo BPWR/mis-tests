@@ -1,0 +1,172 @@
+1.	Deberá garantizarse la identificación del órgano titular de la sede, así como los medios disponibles para la formulación de sugerencias y quejas. 
+
+a)	En ningún caso. 
+b)	En algunos casos. 
+c)	Ninguna es correcta. 
+d)	En todo caso. 
+
+2.	La publicación en las sedes electrónicas de informaciones, servicios y transacciones respetará los principios de: 
+
+a)	Accesibilidad y uso de acuerdo con las normas establecidas al respecto, estándares abiertos y, en su caso, aquellos otros que sean de uso generalizado por los ciudadanos. 
+b)	Disponibilidad y uso de acuerdo con las normas establecidas al respecto, estándares abiertos y, en su caso, aquellos otros que sean de uso generalizado por los ciudadanos. 
+c)	Calidad y uso de acuerdo con las normas establecidas al respecto, estándares abiertos y, en su caso, aquellos otros que sean de uso generalizado por los ciudadanos. 
+d)	Responsabilidad y uso de acuerdo con las normas establecidas al respecto, estándares abiertos y, en su caso, aquellos otros que sean de uso generalizado por los ciudadanos. 
+
+3.	Las sedes electrónicas utilizarán, para identificarse y garantizar una comunicación segura con las mismas: 
+
+a)	Las dos marcadas con * son correctas. 
+b)	Certificados reconocidos de autenticación de sitio web o medio equivalente*
+c)	Las dos marcadas con * son incorrectas. 
+d)	Certificados cualificados de autenticación de sitio web o medio equivalente.*. 
+ 
+4.	Conforme al art. 39 se entiende por portal de internet: 
+
+a)	El punto de acceso electrónico cuya titularidad corresponde a una Administración Pública o privada, que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente. 
+b)	El punto de acceso electrónico cuya titularidad corresponde a un organismo público o privado que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente. 
+c)	El punto de acceso electrónico cuya titularidad corresponde a una Administración Pública, organismo público o entidad de Derecho Público que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente. 
+d)	El punto de acceso electrónico cuya titularidad corresponde a una entidad de Derecho Público o privado que permite el acceso a través de internet a la información publicada y, en su caso, a la sede electrónica correspondiente. 
+
+5.	Según el art 40 Las administraciones públicas podrán identificarse mediante el uso de: 
+
+a)	Un certificado electrónico basado en un sello electrónico reconocido o cualificado que reúna los requisitos exigidos por la legislación de firma electrónica. 
+b)	Un sello electrónico basado en un certificado electrónico reconocido o cualificado que reúna los requisitos exigidos por la legislación de firma electrónica. 
+c)	Una firma electrónica basada en un certificado electrónico reconocido o cualificado que reúna los requisitos exigidos por la legislación de sello electrónico. 
+d)	Ninguna es correcta. 
+
+6.	Las Administraciones públicas podrán identificarse mediante el uso de un sello electrónico basado en un certificado electrónico reconocido o cualificado que reúna los requisitos exigidos por la legislación de firma electrónica. Estos certificados electrónicos incluirán: 
+
+a)	El número de identificación fiscal y la denominación correspondiente, así como, en su caso, la identidad de la persona titular en el caso delos sellos electrónicos de órganos administrativos. 
+b)	El número de deducción fiscal y la afección correspondiente, así como, en su caso, la identidad de la persona titular en el caso de los sellos electrónicos de órganos administrativos. 
+c)	El número de identificación fiscal y la anticipación correspondiente, así como, en su caso, la identidad de la persona titular en el caso de los sellos electrónicos de órganos administrativos. 
+d)	El número de identificación fiscal y la anotación correspondiente, así como, en su caso, la identidad de la persona titular en el caso de los sellos electrónicos de órganos administrativos. 
+7.	La relación de sellos electrónicos utilizados por cada Administración Pública, incluyendo las características de los certificados electrónicos y los prestadores que los expiden: 
+
+a)	Deberá ser publicada y accesible por medios electrónicos. 
+b)	Deberá ser pública y accesible por medios electrónicos. 
+c)	Podrá ser publicada y accesible por medios electrónicos. 
+d)	Podrá ser pública y accesible por medios electrónicos. 
+
+8.	El art 41 nos define la actuación administrativa automatizada que es: 
+
+a)	Cualquier acto o actuación realizada íntegramente a través de medios electrónicos por una Administración Pública en el marco de un procedimiento administrativo y en la que haya intervenido de forma indirecta un empleado público. 
+b)	Cualquier acto o actuación realizada parcialmente a través de medios electrónicos por una Administración Publica en el marco de un procedimiento administrativo y en la que haya intervenido de forma directa un empleado público. 
+c)	Cualquier acto o actuación realizada íntegramente a través de medios electrónicos por una Administración Pública en el marco de un procedimiento administrativo y en la que no haya intervenido de forma directa un empleado público. 
+d)	Cualquier acto o actuación realizada parcialmente a través de medios electrónicos por una Administración Pública en el marco de un procedimiento administrativo y en la que no haya intervenido de forma directa un empleado público. 
+
+9.	En caso de actuación administrativa automatizada deberá establecerse previamente el órgano u órganos competentes, según los casos para: 
+
+a)	La definición de las especificaciones, advección, mantenimiento, circunscripción y control de calidad y, en su caso, auditoría del sistema de información y de su código fuente. 
+b)	La definición delas especificaciones, colaboración, mantenimiento, supervisión y control de calidad y, en su caso, auditoría del sistema de colegiación y de su código fuente. 
+c)	La definición delas especificaciones computación, mantenimiento, circulación y control de calidad y, en su caso, auditoría del sistema de información y de su código fuente. 
+d)	La definición de las especificaciones, programación, mantenimiento, supervisión y control de calidad y, en su caso, auditoría del sistema de información y de su código fuente. 
+ 
+10.	En cuanto al incumplimiento de las obligaciones y compromisos asumidos por parte de alguno de los firmantes del convenio (señala la incorrecta-): 
+
+a) Cualquiera de las partes podrá notificar a la parte incumplidora un requerimiento para que cumpla en un determinado plazo con las obligaciones o compromisos que se consideran incumplidos 
+b) Este requerimiento para que se cumplan las obligaciones o compromisos que se consideran incumplidos será comunicado al responsable del mecanismo de seguimiento, vigilancia y control de la ejecución del convenio y a las demás partes firmantes 
+c) Si trascurrido el plazo indicado en el requerimiento persistiera el incumplimiento, la parte que lo dirigió notificará a las partes firmantes la concurrencia de la causa de resolución y se entenderá resuelto el convenio 
+d) La resolución del convenio por esta causa conllevará en todo caso la indemnización de los perjuicios causados.
+
+11.	Además de las previstas en la presente Ley son causas de resolución de los convenios: 
+
+a) Cualquier causa prevista en otras Leyes 
+b) Cualquier causa prevista en el convenio 
+c) Cualquier causa prevista en el convenio o en otras Leyes 
+d) Cualquier causa prevista en el derecho internacional.
+
+12.	El cumplimiento y la resolución de los convenios dará lugar a la liquidación de los
+mismos con el objeto de determinar: 
+
+a) Las derechos y obligaciones de cada una de las partes 
+b) Las deberes y derechos de cada una de las partes 
+c) Las obligaciones y compromisos de cada una de las partes 
+d) Las derechos y compromisos de cada una de las partes.
+
+13.	En el supuesto de convenios de los que deriven compromisos financieros, se entenderán cumplidos cuando su objeto se haya realizado en los términos y a satisfacción de ambas partes, de acuerdo con sus respectivas competencias, teniendo en cuenta que si de la liquidación resultara que el importe de las actuaciones ejecutadas por alguna de las partes fuera inferior a los fondos que la misma hubiera recibido del resto de partes del convenio para financiar dicha ejecución, aquella deberá reintegrar a estas el exceso que corresponda a cada una, en el plazo máximo de: 
+
+a) Un mes desde que se hubiera aprobado la liquidación 
+b) Dos meses desde que se hubiera aprobado la liquidación 
+c) Tres meses desde que se hubiera aprobado la liquidación 
+d) Un año desde que se hubiera aprobado la liquidación.
+
+14.	Transcurrido el plazo máximo sin que se haya producido el reintegro, se deberá abonar también el interés de demora aplicable al citado reintegro: 
+
+a) A contar desde ese momento 
+b) En el plazo de un mes a contar desde ese momento 
+c) En el plazo de dos meses a contar desde ese momento 
+d) En el plazo de tres meses a contar desde ese momento.
+
+15.	En el supuesto de convenios de los que deriven compromisos financieros, se entenderán cumplidos cuando su objeto se haya realizado en los términos y a satisfacción de ambas partes, de acuerdo con sus respectivas competencias, teniendo en cuenta que si de la liquidación resultara que el importe de las actuaciones ejecutadas por alguna de las partes fuera superior a los fondos que la misma hubiera recibido del resto de partes del convenio para financiar dicha ejecución, el resto de partes del convenio, deberá abonar a la parte de que se trate la diferencia que corresponda a cada una de ellas, con el límite máximo de las cantidades que cada una de ellas se hubiera comprometido a aportar en virtud del convenio: 
+
+a) En el plazo de un mes desde la aprobación de la liquidación 
+b) En el plazo de dos meses desde la aprobación de la liquidación 
+c) En el plazo de tres meses desde la aprobación de la liquidación 
+d) En el plazo de un año desde la aprobación de la liquidación.
+
+16.	Si cuando concurra cualquiera de las causas de resolución del convenio existen actuaciones en curso de ejecución, las partes, a propuesta de la comisión de seguimiento, vigilancia y control del convenio o, en su defecto, del responsable del mecanismo a que hace referencia la letra f) del artículo 49, podrán acordar la continuación y finalización de las actuaciones en curso que consideren oportunas, estableciendo: 
+
+a) Un plazo improrrogable para su finalización, transcurrido el cual no podrá realizarse la liquidación un plazo improrrogable para su finalización, transcurrido el cual no podrá realizarse la liquidación 
+b) Un plazo prorrogable para su finalización, transcurrido el cual deberá realizarse la liquidación 
+c) Un plazo prorrogable para su finalización, transcurrido el cual no podrá realizarse la liquidación 
+d) Un plazo improrrogable para su finalización, transcurrido el cual deberá realizarse la liquidación
+
+17.	Deberán remitirse electrónicamente al Tribunal de Cuentas u órgano externo de fiscalización de la Comunidad Autónoma, según corresponda los convenios cuyos compromisos económicos asumidos superen: 
+
+a) Los 300.000 euros dentro de los 3 meses siguientes a su suscripción 
+b) Los 300.000 euros dentro de los 6 meses siguientes a su suscripción 
+c) Los 600.000 euros dentro de los 3 meses siguientes a su suscripción 
+d) Los 600.000 euros dentro de los 6 meses siguientes a su suscripción
+18.	Se comunicarán al Tribunal de Cuentas u órgano externo de fiscalización de la Comunidad Autónoma, según corresponda: 
+
+a) Las modificaciones, prórrogas o variaciones de plazos 
+b) La alteración de los importes de los compromisos económicos asumidos 
+c) La extinción de los convenios indicados 
+d) Todas son correctas
+
+19.	El Título preliminar de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público se denomina: 
+
+a) Disposiciones generales, principios de actuación y funcionamiento del sector público 
+b) Administración General del Estado 
+c) Organización y funcionamiento del sector público institucional 
+d) Relaciones interadministrativas.
+
+20.	El Título preliminar de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público tiene: 
+
+a) 4 capítulos 
+b) 5 capítulos 
+c) 6 capítulos 
+d) 7 capítulos.
+
+21.	El Título preliminar de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público comprende los artículos: 
+
+a) 1 a 53 
+b) 9 a 46 
+c) 1 a 35 
+d) 8 a 49 .
+
+
+RESPUESTAS
+
+ 
+1.		D
+2.		A
+3.		A
+4.		C
+5.		B
+6.		A
+7.		B
+8.		C
+9.		D
+10.		D
+11.		C
+12.		C
+13.		A
+14.		B
+15.		A
+16.		D
+17.		C
+18.		D
+19.		A
+20.		C
+21.		A
+
