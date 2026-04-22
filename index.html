@@ -9,13 +9,12 @@
     <!-- Enlace a tu archivo CSS -->
     <link rel="stylesheet" href="ui.css">
 
-    <!-- Librería para convertir DOCX a HTML/Texto -->
-    <!-- mammoth.js se carga de forma tradicional (no como módulo) para adjuntarse a window.mammoth -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth.js/1.6.0/mammoth.browser.min.js"></script>
+    <!-- Librería para convertir DOCX a HTML/Texto (comentada si solo usas TXT) -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth.js/1.6.0/mammoth.browser.min.js"></script> -->
     
-    <!-- Librerías para convertir PDF a Texto -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.mjs" type="module"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.mjs" type="module"></script>
+    <!-- Librerías para convertir PDF a Texto (comentadas si solo usas TXT) -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.mjs" type="module"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.worker.min.mjs" type="module"></script> -->
 </head>
 <body>
     <header>
@@ -23,6 +22,19 @@
     </header>
 
     <main id="app-container" class="container">
+        <!-- Selector de Modo de Test AÑADIDO AQUÍ -->
+        <section id="test-mode-selector" class="mode-selector-container">
+            <h2>Selecciona un Modo de Test</h2>
+            <div class="mode-buttons">
+                <button id="mode-examen" class="mode-button selected" data-mode="examen">
+                    <i class="fas fa-file-alt"></i> Modo Examen
+                </button>
+                <button id="mode-estudio" class="mode-button" data-mode="estudio">
+                    <i class="fas fa-book-reader"></i> Modo Estudio
+                </button>
+            </div>
+        </section>
+
         <section id="test-list-section" class="test-list-grid">
             <h2>Selecciona un Test</h2>
             <div id="test-cards-container" class="grid-container">
@@ -53,7 +65,7 @@
 
     <!-- Tus scripts JavaScript -->
     <!-- Importación de módulos: el orden es importante para las dependencias -->
-    <script src="parser.js" type="module"></script> <!-- parser.js se carga como módulo -->
+    <script src="parser.js" type="module"></script> 
     <script src="reader.js" type="module"></script> 
     <script src="ui.js" type="module"></script> 
 </body>

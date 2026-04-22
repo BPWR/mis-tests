@@ -1,3 +1,6 @@
+/* Asegúrate de que este sea el archivo completo de ui.css,
+   o al menos añade estas reglas a tu archivo existente */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -36,6 +39,66 @@ h2 {
     font-size: 1.8em;
 }
 
+/* Estilos para el selector de modo de test */
+.mode-selector-container {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.mode-selector-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+.mode-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; /* Para que sea responsivo */
+}
+
+.mode-button {
+    background-color: #e0e0e0;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mode-button i {
+    margin-right: 10px;
+    font-size: 1.3em;
+}
+
+.mode-button:hover {
+    background-color: #d0d0d0;
+    border-color: #bbb;
+}
+
+.mode-button.selected {
+    background-color: #3498db;
+    color: white;
+    border-color: #2980b9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+.mode-button.selected:hover {
+    background-color: #2980b9;
+}
+
+
 /* Estilos para el listado de tests (tarjetas) */
 .test-list-grid {
     padding: 20px;
@@ -62,6 +125,7 @@ h2 {
     align-items: flex-start;
     text-align: left;
     min-height: 150px; /* Altura mínima para que las tarjetas se vean bien */
+    position: relative; /* Para posicionar el indicador de nota */
 }
 
 .test-card:hover {
@@ -71,4 +135,257 @@ h2 {
 
 .test-card-icon {
     font-size: 2.5em;
-    marg
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.test-card h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+    color: #2c3e55;
+    flex-grow: 1; /* Permite que el título ocupe espacio y empuje el resto */
+}
+
+.test-card p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+.file-extension {
+    background-color: #ecf0f1;
+    color: #34495e;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.7em;
+    margin-top: 10px;
+    align-self: flex-end; /* Alinea la extensión a la derecha inferior */
+}
+
+/* ESTILO AÑADIDO para el indicador de nota */
+.test-score-indicator {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #2c3e55; /* Fondo oscuro */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.test-score-indicator.new {
+    background-color: #f39c12; /* Naranja para "Nuevo" */
+}
+
+
+/* Estilos para la sección del Quiz */
+.quiz-container {
+    padding: 20px;
+}
+
+.question-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out; /* Para animaciones futuras */
+}
+
+.question-text {
+    font-size: 1.15em;
+    color: #2c3e55;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna por defecto */
+    gap: 12px; /* Espacio entre las opciones */
+}
+
+@media (min-width: 600px) {
+    .options-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Dos columnas en pantallas más grandes */
+    }
+}
+
+
+.option-button {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 1em;
+    color: #495057;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
+
+.option-button:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+/* Estilo para la opción seleccionada */
+.option-button.selected {
+    background-color: #3498db;
+    color: white;
+    border-color: #2980b9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); /* Pequeño efecto 3D */
+}
+
+/* Estilos para los botones de navegación */
+.quiz-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.nav-button, .submit-button, .back-button {
+    background-color: #28a745; /* Verde para acciones principales */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    flex-grow: 1; /* Para que ocupen espacio */
+    margin: 0 5px; /* Pequeño espacio entre botones */
+}
+
+.nav-button:hover, .submit-button:hover, .back-button:hover {
+    background-color: #218838;
+    transform: translateY(-1px);
+}
+
+.nav-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.submit-button {
+    background-color: #007bff; /* Azul para finalizar */
+}
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.back-button {
+    background-color: #6c757d; /* Gris para volver */
+    margin-top: 20px; /* Separación del resto del contenido */
+    max-width: 300px; /* Ancho limitado */
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Centrar el botón */
+}
+.back-button:hover {
+    background-color: #5a6268;
+}
+
+/* Estilos para los resultados del test */
+.result-container {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+}
+.result-container h3 {
+    color: #2c3e55;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.result-container p {
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de revisión de preguntas */
+.review-question-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.review-question-card .question-text {
+    font-weight: bold;
+    color: #2c3e55;
+    margin-bottom: 10px;
+}
+
+.review-option {
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: block; /* Cada opción en su propia línea */
+}
+
+.review-option.correct {
+    background-color: #d4edda; /* Verde claro */
+    color: #155724; /* Texto verde oscuro */
+    border: 1px solid #c3e6cb;
+    font-weight: bold;
+}
+
+.review-option.incorrect {
+    background-color: #f8d7da; /* Rojo claro */
+    color: #721c24; /* Texto rojo oscuro */
+    border: 1px solid #f5c6cb;
+    font-weight: bold;
+}
+
+/* Clases para modo estudio, se aplican directamente al botón de opción */
+.option-button.correct-feedback {
+    background-color: #d4edda; /* Verde claro */
+    color: #155724; /* Texto verde oscuro */
+    border-color: #28a745; /* Borde verde */
+    font-weight: bold;
+}
+
+.option-button.incorrect-feedback {
+    background-color: #f8d7da; /* Rojo claro */
+    color: #721c24; /* Texto rojo oscuro */
+    border-color: #dc3545; /* Borde rojo */
+    font-weight: bold;
+}
+
+/* Clases de iconos de feedback */
+.feedback-icon {
+    margin-left: 10px;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+.feedback-icon.correct {
+    color: #28a745; /* Verde */
+}
+.feedback-icon.incorrect {
+    color: #dc3545; /* Rojo */
+}
+
+/* Mensaje de carga */
+#loading-message {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: #555;
+}
+#loading-message i {
+    margin-top: 15px;
+}
