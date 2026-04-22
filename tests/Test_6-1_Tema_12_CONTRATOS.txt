@@ -1,0 +1,166 @@
+1.	La representación de las entidades del sector público en materia contractual corresponde a los:
+
+a)	Órganos de contratación unipersonales que, en virtud de norma legal o reglamentaria o disposición estatutaria, tengan la facultad de celebrar contratos en su nombre.
+b)	Órganos de contratación colegiados.
+c)	Órganos de contratación unipersonales o colegiados que, en virtud de norma legal o reglamentaria o disposición estatutaria, tengan atribuida la facultad de celebrar contratos en su nombre.
+d)	Comités de contratación.
+
+2.	En función del artículo 61 de la LCSP los órganos de contratación:
+
+a)	Podrán delegar sus competencias y facultades.
+b)	Podrán desconcentrar sus competencias y facultades.
+c)	Podrán delegar o desconcentrar sus competencias y facultades.
+d)	No podrán delegar ni desconcentrar sus competencias y facultades.
+
+3.	Los órganos de contratación deberán designar un responsable del contrato al que corresponderá supervisar su ejecución y adoptar las decisiones y dictar las instrucciones necesarias con el fin de asegurar la correcta realización de la prestación pactada. Estos responsables podrán ser:
+
+a)	El director facultativo, en los contratos de obras.
+b)	El director del contrato.
+c)	La persona que sea designada en defensa del interés general, en los casos de concesiones de obra pública y de concesiones de servicios.
+d)	Las respuestas a y c son correctas.
+
+4.	El responsable designado para un contrato:
+
+a)	Deberá ser una persona física, vinculada a la entidad contratante.
+b)	Podrá ser una persona física, vinculada a la entidad contratante o ajena a él.
+c)	Podrá ser una persona jurídica, vinculada a la entidad contratante o ajena a él
+d)	Las respuestas b y c son correctas.
+
+5.	En relación al acceso a la información del perfil del contratante:
+
+a)	Como regla general será restringido, requiriéndose identificación previa.
+b)	Será libre, pero podrá requerirse identificación personal para el acceso a servicios personalizados asociados al contenido del perfil de contratante.
+c)	Para suscripciones, envío de alertas, comunicaciones electrónicas, envío de ofertas, entre otras, relacionadas con el contenido del perfil de contratante no podrá requerirse identificación personal.
+d)	Todas las respuestas anteriores son correctas.
+
+6.	La información contenida en los perfiles de contratante se publicará en formatos abiertos y reutilizables, y permanecerá accesible al público durante un periodo de tiempo:
+
+a)	No inferior a un año.
+b)	No inferior a dos años.
+c)	No inferior a cinco años.
+d)	No inferior a diez años.
+
+7.	Según el artículo 63 de la LCSP deberá publicarse una información mínima en el perfil de contratante relativa a los contratos, entre otros:
+
+a)	La memoria justificativa del contrato.
+b)	El pliego de cláusulas administrativas particulares y el de prescripciones técnicas.
+c)	Los anuncios de información previa, de convocatoria de licitaciones, de adjudicación y de formalización de los contratos.
+d)	Todas las respuestas anteriores son correctas.
+
+8.	Según el artículo 63 de la LCSP deberá publicarse una información mínima en el perfil de contratante relativa a los contratos, entre otros:
+
+a)	Los medios a través de los que, en su caso, se ha publicitado el contrato y los enlaces a esas publicaciones.
+b)	La justificación del procedimiento utilizado para su adjudicación cuando se utilice un procedimiento distinto del negociado o de diálogo competitivo.
+c)	El informe de suficiencia de medios en el caso de contratos de servicios.
+d)	Todas las respuestas anteriores son correctas.
+
+9.	Según el artículo 63 de la LCSP deberá publicarse en el perfil de contratante de la información relativa a los contratos, entre otros:
+
+a)	El objeto detallado del contrato y su duración.
+b)	El presupuesto base de licitación.
+c)	El importe de adjudicación, incluido el Impuesto sobre el Valor Añadido.
+d)	Todas las respuestas anteriores son correctas.
+
+10.	La publicación de la información relativa a los contratos menores deberá realizarse al menos:
+
+a)	Mensualmente.
+b)	Trimestralmente.
+c)	Semestralmente.
+d)	Anualmente.
+ 
+11.	¿Cuál de la siguiente información está incluida dentro de la información mínima que se debe publicar para los contratos menores?
+
+a)	Su objeto, duración y memoria justificativa.
+b)	El importe de adjudicación, incluido el Impuesto sobre el Valor Añadido.
+c)	El importe de adjudicación, excluido el Impuesto sobre el Valor Añadido.
+d)	Las respuestas a y c son correctas.
+
+12.	En los contratos menores quedan exceptuados de la publicación aquellos contratos cuyo valor estimado sea:
+
+a)	Inferior a cinco mil euros, siempre que el sistema de pago utilizado por los poderes adjudicadores fuera el de anticipo de caja fija u otro sistema similar para realizar pagos menores.
+b)	Inferior a cinco mil euros.
+c)	Inferior a tres mil euros, siempre que el sistema de pago utilizado por los poderes adjudicadores fuera el de anticipo de caja fija u otro sistema similar para realizar pagos menores.
+d)	Inferior a seis mil euros.
+
+13.	Según el artículo 63 de la LCSP deberá publicarse en el perfil de contratante al menos:
+
+a)	El informe de suficiencia de medios en el caso de contratos de obras.
+b)	Los documentos de clasificación de los licitadores.
+c)	La justificación del procedimiento utilizado para su adjudicación cuando se utilice un procedimiento distinto del abierto o del restringido.
+d)	Las respuestas a y b son correctas.
+
+14.	En relación a los miembros de las mesas de contratación y de los comités de expertos:
+
+a)	Deberá publicarse el cargo de sus miembros.
+b)	En la publicación del cargo de sus miembros se permitirán alusiones genéricas o indeterminadas a que se refieran a la Administración en la que prestasen sus servicios.
+c)	Nunca deberá publicarse el cargo de sus miembros.
+d)	Las respuestas a y b son correctas.
+
+15.	En el perfil del contratante deberán publicarse en todo caso:
+
+a)	La formalización de encargos a medios propios cuyo importe fuera superior a 50.000 euros, iva excluido
+b)	La información de relativa a los encargos a medios propios de importe superior a 5.000 euros deberá publicarse al menos trimestralmente.
+c)	En los encargos a medios propios de importe superior a 5.000 euros deberá publicarse el objeto, duración, las tarifas aplicables y la identidad del medio propio destinatario del encargo, ordenándose los encargos por la identidad del medio propio.
+d)	Todas las respuestas anteriores son correctas.
+
+16.	El sistema informático que soporte el perfil del contratante deberá contar con un dispositivo que permita acreditar fehacientemente:
+
+a)	El número de interesados que acceden a dicho perfil de contratante.
+b)	El momento de inicio de la difusión pública de la información que se incluya en el mismo.
+c)	La identificación de los interesados que acceden a dicho perfil del contratante.
+d)	Ninguna de las anteriores es correcta.
+
+17.	Según el artículo 64 de la LCSP el concepto de conflicto de intereses abarcará, al menos:
+
+a)	Cualquier situación en la que el personal al servicio del órgano de contratación, tenga directa o indirectamente un interés financiero, económico o personal que pudiera parecer que compromete su objetividad en el contexto del procedimiento de licitación.
+b)	Cualquier actuación en la que el personal al servicio del órgano de contratación, que además participe en el desarrollo del procedimiento de licitación o pueda influir en el resultado del mismo, tenga directamente un interés personal que pudiera parecer que compromete su objetividad en el contexto del procedimiento de licitación.
+c)	Cualquier situación en la que el personal al servicio del órgano de contratación, que además participe en el desarrollo del procedimiento de licitación o pueda influir en el resultado del mismo, tenga directa o indirectamente un interés financiero, económico o personal que pudiera parecer que compromete su imparcialidad e independencia en el contexto del procedimiento de licitación.
+d)	Ninguna es correcta.
+
+18.	Según el artículo 99 de la LCSP el objeto de los contratos del sector público deberá ser:
+
+a)	Único.
+b)	Determinado.
+c)	Específico.
+d)	Objetivo.
+
+19.	Podrá fraccionarse un contrato con la finalidad de:
+
+a)	Disminuir la cuantía del mismo para eludir los requisitos de publicidad.
+b)	Disminuir la cuantía del mismo para eludir los requisitos de procedimiento de adjudicación que correspondan.
+c)	Disminuir la cuantía del mismo para no dividir en lotes el objeto del contrato.
+d)	Ninguna de las anteriores respuestas es correcta.
+ 
+20.	Un aspecto novedoso de la LCSP es que la división en lotes de los contratos es:
+
+a)	La norma general.
+b)	La excepción, que debe justificarse.
+c)	Una opción residual.
+d)	Ninguna de las anteriores respuestas es correcta.
+
+RESPUESTAS
+ 
+1.		C
+2.		C
+3.		D
+4.		D
+5.		B
+6.		C
+7.		D
+8.		A
+9.		D
+10.		B
+11.		B
+12.		A
+13.		C
+14.		A
+15.		D
+16.		B
+17.		C
+18.		B
+19.		D
+20.		C
+
+
+
+
