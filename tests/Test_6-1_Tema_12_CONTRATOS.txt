@@ -98,9 +98,9 @@ d)	Las respuestas a y b son correctas.
 
 15.	En el perfil del contratante deberán publicarse en todo caso:
 
-a)	La formalización de encargos a medios propios cuyo importe fuera superior a 50.000 euros, iva excluido
-b)	La información de relativa a los encargos a medios propios de importe superior a 5.000 euros deberá publicarse al menos trimestralmente.
-c)	En los encargos a medios propios de importe superior a 5.000 euros deberá publicarse el objeto, duración, las tarifas aplicables y la identidad del medio propio destinatario del encargo, ordenándose los encargos por la identidad del medio propio.
+a)	La formalización de encargos a medios propios cuyo importe fuera superior a 50 000 euros, iva excluido
+b)	La información de relativa a los encargos a medios propios de importe superior a 5 000 euros deberá publicarse al menos trimestralmente.
+c)	En los encargos a medios propios de importe superior a 5 000 euros deberá publicarse el objeto, duración, las tarifas aplicables y la identidad del medio propio destinatario del encargo, ordenándose los encargos por la identidad del medio propio.
 d)	Todas las respuestas anteriores son correctas.
 
 16.	El sistema informático que soporte el perfil del contratante deberá contar con un dispositivo que permita acreditar fehacientemente:
