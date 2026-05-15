@@ -117,24 +117,24 @@ b)	Los honorarios, las comisiones pagaderas, los intereses y otras formas de rem
 c)	La prima pagadera y otras formas de remuneración.
 d)	Los honorarios y la prima pagadera.
 
-18.	Según el artículo 101.11 de la LCSP en el cálculo del valor estimado se tendrá en cuenta en los contratos de servicios en que no se especifique un precio total, si tienen una duración determinada igual o inferior a cuarenta y ocho meses:
+18.	Según el artículo 101,11 de la LCSP en el cálculo del valor estimado se tendrá en cuenta en los contratos de servicios en que no se especifique un precio total, si tienen una duración determinada igual o inferior a cuarenta y ocho meses:
 
-a)	El valor mensual multiplicado por 24.
-b)	El valor mensual multiplicado por 48.
+a)	El valor mensual multiplicado por 24
+b)	El valor mensual multiplicado por 48
 c)	El valor total estimado correspondiente a toda la duración del contrato.
-d)	El valor mensual multiplicado por 12.
+d)	El valor mensual multiplicado por 12
 
-19.	Según el artículo 101.11 de la LCSP en el cálculo del valor estimado se tendrá en cuenta en los contratos de servicios en que no se especifique un precio total, si tienen una duración superior a cuarenta y ocho meses o no se encuentra fijada por referencia a un periodo de tiempo cierto:
+19.	Según el artículo 101,11 de la LCSP en el cálculo del valor estimado se tendrá en cuenta en los contratos de servicios en que no se especifique un precio total, si tienen una duración superior a cuarenta y ocho meses o no se encuentra fijada por referencia a un periodo de tiempo cierto:
 
-a)	El valor mensual multiplicado por 24.
-b)	El valor mensual multiplicado por 48.
+a)	El valor mensual multiplicado por 24
+b)	El valor mensual multiplicado por 48
 c)	El valor total estimado correspondiente a toda la duración del contrato.
-d)	El valor mensual multiplicado por 12.
+d)	El valor mensual multiplicado por 12
  
 20.	Cuando la realización de una obra, la contratación de unos servicios o la obtención de unos suministros destinados a usos idénticos o similares pueda dar lugar a la adjudicación simultánea de contratos por lotes separados, se deberá tener en cuenta:
 
-a)	El valor mensual multiplicado por 24.
-b)	El valor mensual multiplicado por 48.
+a)	El valor mensual multiplicado por 24
+b)	El valor mensual multiplicado por 48
 c)	El valor total estimado correspondiente a toda la duración del contrato.
 d)	El valor global estimado de la totalidad de dichos lotes.
 
