@@ -1,0 +1,235 @@
+1.	Según el artículo 14 de la LCSP en un contrato de concesión de obras la parte de los riesgos transferidos al concesionario:
+
+a)	No debe suponer una exposición real a las incertidumbres del mercado que implique que cualquier pérdida potencial estimada en que incurra el concesionario no es meramente nominal o desdeñable.
+b)	Debe suponer una exposición real a las incertidumbres del mercado que implique que cualquier pérdida potencial estimada en que incurra el concesionario es meramente nominal o desdeñable.
+c)	Debe suponer una exposición real a las incertidumbres del mercado que implique que cualquier pérdida potencial estimada en que incurra el concesionario no es meramente nominal o desdeñable.
+d)	No debe suponer una exposición real a las incertidumbres del mercado que implique que cualquier pérdida potencial estimada en que incurra el concesionario es meramente nominal o desdeñable.
+
+2.	Según el artículo 15 de la LCSP es un contrato de concesión de servicios:
+
+a)	Aquel en cuya virtud uno o varios poderes adjudicadores encomiendan a título sin ánimo de lucro a una o varias personas, naturales o jurídicas, la gestión de un servicio cuya prestación sea de su titularidad o competencia.
+b)	Aquel en cuya virtud uno o varios poderes adjudicadores encomiendan a título oneroso a personas jurídicas, la gestión de un servicio cuya prestación sea de su titularidad o competencia.
+c)	Aquel en cuya virtud uno o varios poderes adjudicadores encomiendan a título oneroso a personas privadas, la gestión de un servicio cuya prestación sea de su titularidad o competencia.
+d)	Aquel en cuya virtud uno o varios poderes adjudicadores encomiendan a título oneroso a una o varias personas, naturales o jurídicas, la gestión de un servicio cuya prestación sea de su titularidad o competencia.
+
+3.	Según el artículo 15 de la LCSP el derecho de explotación de los servicios deberá implicar la transferencia al concesionario de:
+
+a)	Un porcentaje del riesgo operacional en la explotación de dichos servicios, con un riesgo de demanda y suministro limitado.
+b)	Un riesgo operacional en la explotación de dichos servicios, abarcando el riesgo de demanda.
+c)	Un riesgo operacional en la explotación de dichos servicios, abarcando el riesgo de demanda o el de suministro, o ambos.
+d)	Un riesgo operacional en la explotación de dichos servicios, abarcando el riesgo de demanda o el de suministro.
+ 
+4.	Según el artículo 16 de la LCSP es un contrato de suministro:
+
+a)	Los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.
+b)	Los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento sin opción de compra, de productos o bienes muebles.
+c)	Los que tienen por objeto la adquisición, el mantenimiento, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles.
+d)	Los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles o inmuebles.
+
+5.	Según la LCSP no se considerarán contratos de suministro:
+
+a)	Aquellos en los que el empresario se obligue a entregar una pluralidad de bienes de forma sucesiva y por precio unitario sin que la cuantía total se defina con exactitud en el tiempo de celebrar el contrato, por estar subordinadas las entregas a las necesidades del adquiriente.
+b)	Los contratos relativos a propiedades incorporales o valores negociables.
+c)	Los que tengan por objeto la adquisición de energía primaria o energía transformada.
+d)	Las respuestas a y c son correctas.
+
+6.	según la LCSP no son considerados contratos de suministros:
+
+a)	Los que tengan por objeto la adquisición y el arrendamiento de equipos y telecomunicaciones o para el tratamiento de la información.
+b)	La compra de dispositivos y programas estándar.
+c)	La adquisición de programas de ordenador desarrollados a medida
+d)	Las respuestas a y b son correctas.
+ 
+7.	según el artículo 17 de la LCSP son contratos de servicios:
+
+a)	Aquellos cuyo objeto son prestaciones de hacer consistentes en el desarrollo de una actividad o dirigidas a la obtención de una obra, sin incluir aquellos en e el adjudicatario se obligue a ejecutar el servicio de forma sucesiva y por precio unitario
+b)	Aquellos cuyo objeto son prestaciones de hacer consistentes en el desarrollo de una actividad o dirigidas a la obtención de un suministro, sin incluir aquellos en que el adjudicatario se obligue a ejecutar el servicio de forma sucesiva y por precio unitario
+c)	Aquellos cuyo objeto son prestaciones de hacer consistentes en el desarrollo de una actividad o dirigidas a la obtención de un resultado distinto de una obra o suministro sin incluir aquellos en unitario.que el adjudicatario se obligue a ejecutar el servicio de forma sucesiva y por precio 
+d)	Aquellos cuyo objeto son prestaciones de hacer consistentes en el desarrollo de una actividad o dirigidas a la obtención de un resultado distinto de una obra o suministro incluyendo aquellos en los que el adjudicatario se obligue a ejecutar el servicio de forma sucesiva y por precio unitario.
+
+8.	No podrán ser objeto de contrato de servicios aquellos servicios que impliquen:
+
+a)	La adquisición de software o programas de ordenador a medida.
+b)	La adquisición de sistemas de tratamiento de información, sus dispositivos y programas.
+c)	El ejercicio de la autoridad inherente a los poderes públicos.
+d)	Las respuestas a y b son correctas.
+
+9.	Señale la afirmación INCORRECTA respecto a los contratos mixtos:
+
+a)	Cuando un contrato mixto comprenda prestaciones propias de dos o más contratos de obras, suministros o servicios se atenderá al carácter de la prestación principal.
+b)	Se entenderá por contrato mixto aquel que contenga prestaciones correspondientes a otro u otros contratos de distinta clase.
+c)	Solo podrán fusionarse prestaciones correspondientes a diferentes contratos en un contrato mixto cuando esas prestaciones mantengan relaciones de reciprocidad.
+d)	En el supuesto de que el contrato mixto contenga elementos de una concesión de obras o de una concesión de servicios, deberá acompañarse del correspondiente estudio de viabilidad.
+ 
+10.	Cuando un contrato mixto contemple prestaciones de contratos regulados en la LCSP con prestaciones de otros contratos distintos de los regulados en la misma, para determinar el marco jurídico aplicable a su adjudicación:
+
+a)	Si las distintas prestaciones no son separables se atenderá al carácter de la prestación principal.
+b)	Si las prestaciones son separables y se decide celebrar un único contrato, se aplicará lo dispuesto en la LCSP.
+c)	Si las distintas prestaciones no son separables se atenderá al carácter elegido por el órgano de contratación.
+d)	Las respuestas a y b son correctas.
+
+11.	Según dispone el artículo 18,3 de la LCSP, ¿en qué casos en los contratos mixtos de obras debe elaborarse un proyecto?
+
+a)	Cuando sea una obra que supere los cien mil euros.
+b)	Cuando sea una obra que supere los cincuenta mil euros
+c)	Cuando sea una obra que supere los veinticinco mil euros.
+d)	cuando sea una obra que supere los cincuenta mil euros y la obra sea de una dificultad técnica especial 
+
+12.	pueden ser contratos sujetos a regulación armonizada los siguientes tipos de contratos:
+
+a)	De obras 
+b)	De concesión de obras y de servicios.
+c)	De suministro,
+d)	Todas las respuestas anteriores son correctas.
+
+13.	Señale la respuesta incorrecta. No se consideran contratos sujetos a regulación armonizada:
+
+a)	Los que tengan por objeto la adquisición, el desarrollo, la producción o la coproducción de programas destinados a servicios de comunicación audiovisual.
+b)	Determinados contratos de obras que tengan por objeto actividades de ingeniería civil.
+c)	Los que tengan por objeto servicios públicos de transporte de viajeros por ferrocarril o en metro.
+d)	Los servicios de certificación y autenticación de documentos que deban ser prestados por un notario público.
+ 
+14.	Según la reciente Orden HFP/1499/2021, de 28 de diciembre, están sujetos a regulación armonizada los contratos de obras, de concesión de obras y de concesión de servicios cuyo valor estimado sea igual o superior a:
+
+a)	5 382 000 €
+b)	5 548 000 €
+c)	5 500 000 €
+d)	5 530 000 €
+
+15.	Según la reciente Orden HFP/1499/2021, de 28 de diciembre, están sujetos a regulación armonizada los contratos de suministro cuyo valor estimado sea igual o superior a:
+
+a)	133 000 €, cuando los contratos hayan de ser adjudicados por la Administración General del Estado, sus organismos autónomos, o las entidades gestoras y servicios comunes de la Seguridad Social.
+b)	140 000 €, cuando los contratos hayan de ser adjudicados por la Administración General del Estado, sus organismos autónomos, o las entidades gestoras y servicios comunes de la Seguridad Social.
+c)	144 000 €, cuando los contratos hayan de ser adjudicados por la Administración General del Estado, sus organismos autónomos, o las entidades gestoras y servicios comunes de la Seguridad Social.
+d)	214 000 €, cuando los contratos hayan de ser adjudicados por la Administración General del Estado, comunidades autónomas o entidades locales.
+
+16.	En el supuesto previsto en el artículo 101,12 de la LCSP relativo al cálculo del valor estimado en los contratos que se adjudiquen por lotes separados, cuando el valor acumulado de los lotes en que se divida el suministro iguale o supere las cantidades que intervienen en la regulación armonizada:
+
+a)	aplicarán las normas de regulación armonizada cuando todos los lotes igualen
+b)	Se aplicarán las normas de regulación armonizada a los lotes que igualen o superen
+c)	se aplicarán las nomas de regulación armonizada a la adjudicación de cada lote
+d)	Ninguna de las anteriores respuestas es correcta.
+ 
+17.	Los órganos de contratación podrán exceptuar de las normas de regulación armonizada a los lotes cuyo valor estimado:
+
+a)	sea inferior a 60 000 €, siempre que el importe acumulado de los lotes exceptuados no sobrepase el 20 por 100 del valor acumulado de la totalidad de los mismos, 
+b)	sea inferior a 80 000 €, siempre que el importe acumulado de los lotes exceptuados no sobrepase el 20 por 100 del valor acumulado de la totalidad de los mismos. 
+c)	sea inferior a 80 000 €, siempre que el importe acumulado de los lotes exceptuados no sobrepase el 25 por 100 del valor acumulado de la totalidad de los mismos. 
+d)	sea inferior a 139 000 €, siempre que el importe acumulado de los lotes exceptuados no sobrepase el 20 por 100 del valor acumulado de la totalidad de los mismos.
+
+18.	Según la Orden HFP/1499/2021, de 28 de diciembre, están sujetos a regulación armonizada los contratos de servicios cuyo valor estimado sea igual o superior a:
+
+a)	154 000 €, cuando los contratos hayan de ser adjudicados por la Administración General del Estado, sus organismos autónomos, o las entidades gestoras y servicios comunes de la Seguridad Social. 
+b)	221 000 €, cuando los contratos hayan de ser adjudicados por la Administración General del Estado, sus organismos autónomos, o las entidades gestoras y servicios comunes de la Seguridad Social.
+c)	140 000 €, cuando los contratos hayan de ser adjudicados por la Administración General del Estado, sus organismos autónomos, o las entidades gestoras y servicios comunes de la Seguridad Social.
+d)	144 000 €, cuando los contratos hayan de ser adjudicados por la Administración General del Estado, comunidades autónomas o entidades locales.
+
+19.	El Ministerio de Hacienda y Función Pública, a través de la Orden HFP/1499/2021, de 28 de diciembre, por la que se publican los límites de los distintos tipos de contratos a efectos de la contratación del sector público, fijó unos nuevos umbrales de distintos tipos de contratos a efectos de la contratación del sector público que entraron en vigor:
+
+a)	El 1 de enero de 2022
+b)	El 1 de marzo de 2022
+c)	El 28 de enero de 2022
+d)	El 15 de febrero de 2022
+ 
+20.	Son contratos subvencionados sujetos a regulación armonizada los contratos de obras y los contratos de servicios subvencionados por poderes adjudicadores en las categorías especificadas en el artículo 23 de la LCSP siempre que estén dentro de las categorías especificadas en la LCSP y sean subvencionados:
+
+a)	De forma directa y en más de un 50 por 100 de su importe.
+b)	De forma indirecta y en más de un 50 por 100 de su importe.
+c)	De forma directa y en más de un 55 por 100 de su importe.
+d)	De forma indirecta y en más de un 55 por 100 de su importe.
+
+21.	según la reciente orden HFP/1499/2021, de 28 de diciembre, pueden ser contrat0S subvencionados sujetos a regulación armonizada contratos de obras para la construcción de hospitales, centros deportivos, recreativos o de ocio, edificios escolares o universitarios y edificios de uso administrativo, siempre que su valor estimado sea igual o superior a:
+
+a)	5 382 000 € 
+b)	5 548 000 €
+c)	5 500 000 €.
+d)	5 530 000 €.
+
+22.	pueden ser contratos subvencionados sujetos a regulación armonizada contratos de servicios vinculados a un contrato de obras para la construcción de hospitales, centros deportivos, recreativos o de ocio, edificios escolares o universitarios y edificios de uso administrativo, siempre que su valor sea igual o superior a:
+
+a)	133 000 €.
+b)	139 000 €.
+c)	144 000 €.
+d)	215 000 €.
+
+23.	Según el artículo 24 de la LCSP los contratos del sector público podrán estar sometidos a un régimen jurídico de:
+
+a)	Derecho administrativo.
+b)	Derecho privado.
+c)	Derecho administrativo o privado.
+d)	Ninguna de las anteriores respuestas es correcta.
+
+24.	Tienen consideración de contratos privados, siempre que se celebren por una Administración Pública:
+
+a)	Aquellos cuyo objeto sea la suscripción de revistas y publicaciones periódicas.
+b)	Aquellos cuyo objeto sea la suscripción a bases de datos.
+c)	Los contratos de servicios que tengan por objeto la creación e interpretación artística y literaria.
+d)	Todas las respuestas anteriores son correctas.
+
+25.	Señale la respuesta más completa. Según el artículo 25,2 de la LCSP, los contratos administrativos se regirán, en cuanto a su preparación, adjudicación, efectos, modificación y extinción por:
+
+a)	La LCSP y sus disposiciones de desarrollo y supletoriamente se aplicarán las normas de derecho privado.
+b)	La LCSP y sus disposiciones de desarrollo y supletoriamente se aplicarán las restantes normas de derecho administrativo.
+c)	La LCSP y sus disposiciones de desarrollo y supletoriamente se aplicarán las restantes normas de derecho administrativo y, en su defecto, las normas de derecho privado.
+d)	La LCSP y sus disposiciones de desarrollo y supletoriamente se aplicarán las restantes normas de derecho administrativo y, en su defecto, las normas de derecho privado y los principios generales del derecho.
+
+26.	Según la LCSP tienen consideración de contratos privados:
+
+a)	Los celebrados por entidades del sector público que siendo poder adjudicador no reúnan la condición de Administraciones Públicas.
+b)	Los contratos de servicios financieros con número de referencia CPV de 66100000-1 a 66720000-3
+c)	Los celebrados por entidades del sector público que no reúnan la condición de poder adjudicador.
+d)	Todas las respuestas anteriores son correctas.
+
+27.	Señale la respuesta más completa. Los efectos, modificación y extinción contratos que celebren las Entidades del Sector Público que no posean la condición poder adjudicador se regularán por:
+
+a)	La LCSP y sus disposiciones de desarrollo.
+b)	Las normas de derecho privado que les resulten de aplicación.
+c)	La LCSP y sus disposiciones de desarrollo y supletoriamente se  restantes nomas de derecho administrativo.
+d)	La LCSP y sus disposiciones de desarrollo y supletoriamente se aplicarán restantes normas de derecho administrativo y, en su defecto, las normas de derecho privado.
+
+28.	Serán competencia del orden jurisdiccional contencioso-administrativo en materia de contratos administrativos y privados las cuestiones:
+
+a)	Relativas a la preparación, adjudicación, efectos, modificación y extinción de contratos administrativos.
+b)	Relativas a la preparación, adjudicación, efectos, mantenimiento y extinción de contratos administrativos.
+c)	Que se susciten solo en relación con la preparación y adjudicación de los contratos administrativos de las Administraciones Públicas.
+d)	Relativas a la preparación, adjudicación, efectos, modificación y extinción de contratos privados de las Administraciones Públicas.
+
+29.	Señale la respuesta incorrecta. Será competencia del orden jurisdiccional civil en materia de contratos administrativos y privados:
+
+a)	Las controversias que se susciten entre las partes en relación con los efectos y extinción de los contratos privados de las entidades que tengan la consideración de poderes adjudicadores, sean o no Administraciones Públicas, con ciertas excepciones.
+b)	De las cuestiones referidas a efectos y extinción de los contratos que celebren las entidades del sector público que no tengan carácter de poderes adjudicadores.
+c)	Que se susciten solo en relación con la preparación y adjudicación de los contratos administrativos de las Administraciones Públicas.
+d)	El conocimiento de las cuestiones litigiosas relativas a la financiación privada del contrato de concesión de obra pública o de concesión de servicios, salvo algunas excepciones.
+
+RESPUESTAS
+ 
+1.		C
+2.		D
+3.		C
+4.		A
+5.		B
+6.		C
+7.		D
+8.		C
+9.		C
+10.		D
+11.		B
+12.		D
+13.		B
+14.		A
+15.		B
+16.		C
+17.		B
+18.		C
+19.		A
+20.		A
+21.		A
+22.		D
+23.		C
+24.		D
+25.		C
+26.		D
+27.		B
+28.		A
+29.		C
+
