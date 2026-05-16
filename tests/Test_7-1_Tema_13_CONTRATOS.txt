@@ -5,7 +5,7 @@ b)	Trescientos dieciséis.
 c)	Trescientos diecisiete.
 d)	Trescientos veinte.
 
-2.	La preparación y adjudicación de los contratos sujetos a regulación armonizada que concierten los poderes adjudicadores a que se refiere el Título I del Libro Tercero de la LCSP se establecerán por las normas establecidas en las Secciones l a y 2a del:
+2.	La preparación y adjudicación de los contratos sujetos a regulación armonizada que concierten los poderes adjudicadores a que se refiere el Título I del Libro Tercero de la LCSP se establecerán por las normas establecidas en las Secciones la y 2a del:
 
 a)	Capítulo I del Título I del Libro ll de la LCSP.
 b)	Capítulo ll del Título I del Libro ll de la LCSP.
@@ -14,38 +14,38 @@ d)	Capítulo I del Título ll del Libro ll de la LCSP.
 
 3.	Podrán adjudicarse directamente a cualquier empresario con capacidad de obrar y que cuente con la habilitación profesional necesaria para realizar la prestación objeto del contrato, los contratos no sujetos a regulación armonizada de obras, concesiones de obras y concesiones de servicios:
 
-a)	De valor estimado inferior a 20.000 euros.
-b)	De valor estimado inferior a 30.000 euros.
-c)	De valor estimado inferior a 40.000 euros.
-d)	De valor estimado inferior a 15.000 euros.
+a)	De valor estimado inferior a 20 000 euros.
+b)	De valor estimado inferior a 30 000 euros.
+c)	De valor estimado inferior a 40 000 euros.
+d)	De valor estimado inferior a 15 000 euros.
 
 4.	Podrán adjudicarse directamente a cualquier empresario con capacidad de obrar y que cuente con la habilitación profesional necesaria para realizar la prestación objeto del contrato, los contratos no sujetos a regulación armonizada de servicios y suministros:
 
-a)	De valor estimado inferior a 20.000 euros.
-b)	De valor estimado inferior a 30.000 euros.
-c)	De valor estimado inferior a 40.000 euros.
-d)	De valor estimado inferior a 15.000 euros.
+a)	De valor estimado inferior a 20 000 euros.
+b)	De valor estimado inferior a 30 000 euros.
+c)	De valor estimado inferior a 40 000 euros.
+d)	De valor estimado inferior a 15 000 euros.
 
 5.	Según la reciente Orden HFP/1499/2021, de 28 de diciembre, como regla general los contratos no sujetos a regulación armonizada de obras, concesiones de obras y concesiones de servicios que se podrán adjudicar por cualquiera de los procedimientos previstos en la sección 2ª del capítulo I del título I del Libro Segundo de la LCSP, serán aquellos:
 
-a) 	Cuyo valor estimado sea igual o superior a 40.000 euros e inferior a 5.382.000
-b)	Cuyo valor estimado sea igual o superior a 30.000 euros e inferior a 5.548.000.
-c)	Cuyo valor estimado sea igual o superior a 40.000 euros e inferior a 5.548.000.
-d)	Cuyo valor estimado sea igual o superior a 15.000 euros e inferior a 221.000
+a) 	Cuyo valor estimado sea igual o superior a 40 000 euros e inferior a 5 382 000
+b)	Cuyo valor estimado sea igual o superior a 30 000 euros e inferior a 5 548 000
+c)	Cuyo valor estimado sea igual o superior a 40 000 euros e inferior a 5 548 000
+d)	Cuyo valor estimado sea igual o superior a 15 000 euros e inferior a 221 000
 
 6.	Según la Orden HFP/1499/2021 de 28 de noviembre, como regla general los contratos no sujetos a regulación armonizada de servicios y suministros que se podrán adjudicar por cualquiera de los procedimientos previstos en la sección 2ª del capítulo del título I del Libro Segundo de la LCSP, serán aquellos cuyo valor estimado será:
 
-a)	Superior a 10.000 euros e inferior a 221.000.
-b)	Superior a 15.000 euros e inferior a 215.000.
-c)	Superior a 20.000 euros e inferior a 221.000.
-d)	Superior a 15.000 euros e inferior a 221.000.
+a)	Superior a 10 000 euros e inferior a 221 000
+b)	Superior a 15 000 euros e inferior a 215 000
+c)	Superior a 20 000 euros e inferior a 221 000
+d)	Superior a 15 000 euros e inferior a 221 000
 
 7.	Los contratos no sujetos a regulación armonizada se pueden adjudicar por cualquiera de los procedimientos previstos en la misma sección de la pregunta anterior, con excepción:
 
-a) Del procedimiento abierto, que únicamente se podrá utilizar en los casos previstos en el art. 168. 
-b) Del procedimiento restringido, que únicamente se podrá utilizar en los casos previstos en el art. 168. 
-c) Del procedimiento negociado sin publicidad, que únicamente se podrá utilizar en los casos previstos en el art. 168.
-d) a) Del procedimiento de asociación para la innovación, que únicamente se podrá utilizar en los casos previstos en el art. 168.
+a) Del procedimiento abierto, que únicamente se podrá utilizar en los casos previstos en el art. 168 
+b) Del procedimiento restringido, que únicamente se podrá utilizar en los casos previstos en el art. 168 
+c) Del procedimiento negociado sin publicidad, que únicamente se podrá utilizar en los casos previstos en el art. 168 
+d) a) Del procedimiento de asociación para la innovación, que únicamente se podrá utilizar en los casos previstos en el art. 168
 
 8.	Los efectos y extinción de los contratos celebrados por los poderes adjudicadores que no pertenezcan a la categoría de administraciones públicas se regirán por:
 
@@ -56,10 +56,10 @@ d)	Las normas de Derecho privado, con aplicación de algunos preceptos de la LCS
 
 9.	En los contratos celebrados por los poderes adjudicadores que no pertenezcan a la categoría de Administraciones Públicas y en los casos en que la modificación del contrato no estuviera revista en pliego de cláusulas administrativas particulares será necesaria la autorización del departamento ministerial u órgano de la administración autonómica o local al que esté adscrita o corresponda la tutela de la entidad contratante, cuando su importe sea igual o superior:
 
-a) A 6.000.000 de euros y la cuantía de la modificación, aislada o conjuntamente, fuera superior a un 20% del precio inicial del contrato, IVA excluido.
-b) A 6.000.000 de euros y la cuantía de la modificación, aislada o conjuntamente, fuera inferior a un 20% del precio inicial del contrato, IVA excluido
-c) A 6.000.000 de euros y la cuantía de la modificación, aislada o conjuntamente, fuera superior a un 40% del precio inicial del contrato, IVA excluido
-d) A 6.000.000 de euros y la cuantía de la modificación, aislada o conjuntamente, fuera superior a un 15% del precio inicial del contrato, IVA excluido
+a) A 6 000 000 de euros y la cuantía de la modificación, aislada o conjuntamente, fuera superior a un 20% del precio inicial del contrato, IVA excluido.
+b) A 6 000 000 de euros y la cuantía de la modificación, aislada o conjuntamente, fuera inferior a un 20% del precio inicial del contrato, IVA excluido
+c) A 6 000 000 de euros y la cuantía de la modificación, aislada o conjuntamente, fuera superior a un 40% del precio inicial del contrato, IVA excluido
+d) A 6 000 000 de euros y la cuantía de la modificación, aislada o conjuntamente, fuera superior a un 15% del precio inicial del contrato, IVA excluido
  
 10.	En los contratos celebrados por los poderes adjudicadores que no pertenezcan a la categoría de Administraciones Públicas, y que sean de concesión de obras y concesión de servicios, el rescate de la obra o servicio, la supresión de su explotación, así como el secuestro o intervención de los mismos:
 
@@ -84,18 +84,18 @@ d)	Contratos.
 
 13.	Los órganos competentes de las entidades del sector público que no tengan el carácter de poderes adjudicadores podrán adjudicar contratos sin aplicar sus instrucciones en los siguientes casos:
 
-a)	Cuando se trate de contratos de obras, de valor estimado inferior a 40.000 euros.
+a)	Cuando se trate de contratos de obras, de valor estimado inferior a 40 000 euros.
 b)	Cuando se trate de contratos de servicios y suministros, de valor estimado inferior a
-20.000 euros.
-c)	Cuando se trate de contratos de obras, de valor estimado inferior a 15.000 euros.
-d)	Cuando se trate de contratos de servicios y suministros, de valor estimado inferior a 50.000 euros.
+20 000 euros.
+c)	Cuando se trate de contratos de obras, de valor estimado inferior a 15 000 euros.
+d)	Cuando se trate de contratos de servicios y suministros, de valor estimado inferior a 50 000 euros.
  
 14.	Los órganos competentes de las entidades del sector público que no tengan el carácter de poderes adjudicadores podrán adjudicar contratos de servicios y suministros sin aplicar las instrucciones aprobados por ellos en el caso de:
 
-a)	Contratos de valor estimado inferior a 40.000€.
-b)	Contratos de valor estimado inferior a 15.000€.
-c)	Contratos de valor estimado inferior a 10.000€.
-d)	Contratos de valor estimado inferior a 12.000€.
+a)	Contratos de valor estimado inferior a 40 000 €.
+b)	Contratos de valor estimado inferior a 15 000 €.
+c)	Contratos de valor estimado inferior a 10 000 €.
+d)	Contratos de valor estimado inferior a 12 000 €.
 
 15.	Complete correctamente la frase. En los contratos de las entidades del sector público que no tengan el carácter de poderes adjudicadores el plazo de presentación de ofertas se razonablemente necesario para la preparación de aquellas, sin que en ningún caso dicho plazo pueda ser inferior a _____ a contar desde la publicación del anuncio de licitación en el perfil del contratante:
 
@@ -154,17 +154,17 @@ d)	Todas las respuestas anteriores son correctas.
  
 23.	En los contratos menores la tramitación del expediente no será necesario el informe del órgano de contratación de motivación de la necesidad del contrato y que no se está alterando su objeto con el fin de evitar la aplicación de los umbrales establecidos en la LCSP:
 
-a)	En aquellos contratos cuyo pago se verifique a través del sistema de anticipos de caja fija u otro similar para realizar pagos menores, siempre y cuando el valor estimado del contrato no exceda de 15.000€.
-b)	En aquellos contratos cuyo pago se verifique a través del sistema de anticipos de caja fija u otro similar para realizar pagos menores, siempre y cuando el valor estimado del contrato no exceda de 5.000€.
-c)	En aquellos contratos cuyo pago se verifique a través del sistema de anticipos de caja fija u otro similar para realizar pagos menores, siempre y cuando el valor estimado del contrato no exceda de 40.000€.
+a)	En aquellos contratos cuyo pago se verifique a través del sistema de anticipos de caja fija u otro similar para realizar pagos menores, siempre y cuando el valor estimado del contrato no exceda de 15 000 €.
+b)	En aquellos contratos cuyo pago se verifique a través del sistema de anticipos de caja fija u otro similar para realizar pagos menores, siempre y cuando el valor estimado del contrato no exceda de 5 000 €.
+c)	En aquellos contratos cuyo pago se verifique a través del sistema de anticipos de caja fija u otro similar para realizar pagos menores, siempre y cuando el valor estimado del contrato no exceda de 40 000 €.
 d)	En todo caso es preceptivo este informe del órgano de contratación.
 
 24.	Los contratos menores se publicarán en la forma prevista:
 
-a)	En el artículo 63.4 de la LCSP.
-b)	En el artículo 62.4 de la LCSP.
-c)	En el artículo 64.3 de la LCSP.
-d)	En el artículo 61.4 de la LCSP.
+a)	En el artículo 63,4 de la LCSP.
+b)	En el artículo 62,4 de la LCSP.
+c)	En el artículo 64,3 de la LCSP.
+d)	En el artículo 61,4 de la LCSP.
 
 25. La adjudicación de un contrato público se realizará, ordinariamente, utilizando una pluralidad de criterios de adjudicación basados en:
 
@@ -189,9 +189,9 @@ d)	Cuarenta mil euros.
 
 28.	La Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público (LCSP en adelante), transpone el ordenamiento jurídico español las Directivas del Parlamento Europeo y del Consejo:
 
-a)	2014/23/UE, de 26 de febrero de 2014.
-b)	2014/24/UE, de 26 de febrero de 2014.
-c)	2014/25/UE, de 26 de febrero de 2014.
+a)	2014/23/UE, de 26 de febrero de 2014
+b)	2014/24/UE, de 26 de febrero de 2014
+c)	2014/25/UE, de 26 de febrero de 2014
 d)	Las respuestas a y b son correctas.
 
 29.	La Ley 912017, de 8 de noviembre, de Contratos del Sector Público (LCSP en adelante) se estructura en:
@@ -210,10 +210,10 @@ d)	A los seis meses de su publicación.
 
 31.	La LCSP entró en vigor, con carácter general:
 
-a)	El 8 de marzo de 2018.
-b)	El 9 de marzo de 2018.
-c)	El 8 de abril de 2018.
-d)	El 8 de febrero de 2018.
+a)	El 8 de marzo de 2018
+b)	El 9 de marzo de 2018
+c)	El 8 de abril de 2018
+d)	El 8 de febrero de 2018
 
 32.	La LCSP tiene por objeto regular la contratación del sector público, a fin de garantizar que la misma se ajusta a los principios de:
 
@@ -221,14 +221,14 @@ a)	Libertad de acceso a las licitaciones.
 b)	No discriminación e igualdad de trato entre los licitadores.
 c)	Publicidad y transparencia de los procedimientos.
 d)	Todas las respuestas anteriores son correctas.
-33.	Según el artículo 1.3 de la LCSP se facilitará el acceso a la contratación pública de.
+33.	Según el artículo 1,3 de la LCSP se facilitará el acceso a la contratación pública de.
 
 a)	Pequeñas empresas.
 b)	Medianas empresas.
 c)	Empresas de economía social.
 d)	Todas las respuestas anteriores son correctas.
 
-34.	Como señala el artículo 1.3 de la LCSP se incorporarán de manera transversal y preceptiva en la contratación pública:
+34.	Como señala el artículo 1,3 de la LCSP se incorporarán de manera transversal y preceptiva en la contratación pública:
 
 a)	Criterios económicos.
 b)	Criterios sociales y medioambientales, siempre que guarden relación con el objeto del contrato.
