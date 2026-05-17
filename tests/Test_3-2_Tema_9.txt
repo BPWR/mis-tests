@@ -112,10 +112,10 @@ d) Un plazo improrrogable para su finalización, transcurrido el cual deberá re
 
 17.	Deberán remitirse electrónicamente al Tribunal de Cuentas u órgano externo de fiscalización de la Comunidad Autónoma, según corresponda los convenios cuyos compromisos económicos asumidos superen: 
 
-a) Los 300.000 euros dentro de los 3 meses siguientes a su suscripción 
-b) Los 300.000 euros dentro de los 6 meses siguientes a su suscripción 
-c) Los 600.000 euros dentro de los 3 meses siguientes a su suscripción 
-d) Los 600.000 euros dentro de los 6 meses siguientes a su suscripción
+a) Los 300 000 euros dentro de los 3 meses siguientes a su suscripción 
+b) Los 300 000 euros dentro de los 6 meses siguientes a su suscripción 
+c) Los 600 000 euros dentro de los 3 meses siguientes a su suscripción 
+d) Los 600 000 euros dentro de los 6 meses siguientes a su suscripción
 18.	Se comunicarán al Tribunal de Cuentas u órgano externo de fiscalización de la Comunidad Autónoma, según corresponda: 
 
 a) Las modificaciones, prórrogas o variaciones de plazos 
@@ -142,7 +142,7 @@ d) 7 capítulos.
 a) 1 a 53 
 b) 9 a 46 
 c) 1 a 35 
-d) 8 a 49 .
+d) 8 a 49 
 
 
 RESPUESTAS
