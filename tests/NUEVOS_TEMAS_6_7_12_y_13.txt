@@ -7,24 +7,24 @@ d)	La orden emitida por un órgano administrativo superior jerárquico del compe
 
 2. EL acuerdo de iniciación en los procedimientos de naturaleza sancionadora se comunicará a: 
 
-a.	El órgano encargado de resolver el procedimiento con traslado de la documentación generada hasta este momento, y se notificará a los interesados, con excepción, en su caso, del inculpado. 
-b.	El órgano encargado de resolver el procedimiento, con traslado de cuantas actuaciones existan al respecto, y se notificará a los interesados, entendiendo en todo caso por tal al inculpado. 
-c.	El instructor del procedimiento con traslado de la documentación generada hasta este momento, y se notificará a los interesados con excepción, en su caso del inculpado. 
-d.	El instructor del procedimiento, con traslado de cuantas actuaciones existan al respecto, y se notificará a los interesados, entendiendo en todo caso por tal al inculpado. 
+a)	El órgano encargado de resolver el procedimiento con traslado de la documentación generada hasta este momento, y se notificará a los interesados, con excepción, en su caso, del inculpado. 
+b)	El órgano encargado de resolver el procedimiento, con traslado de cuantas actuaciones existan al respecto, y se notificará a los interesados, entendiendo en todo caso por tal al inculpado. 
+c)	El instructor del procedimiento con traslado de la documentación generada hasta este momento, y se notificará a los interesados con excepción, en su caso del inculpado. 
+d)	El instructor del procedimiento, con traslado de cuantas actuaciones existan al respecto, y se notificará a los interesados, entendiendo en todo caso por tal al inculpado. 
 
 3. ¿A qué principio se alude en el artículo 72 de la Ley 39/2015, de 1 de octubre, del Procedimiento administrativo Común de las Administraciones públicas, al establecer que se acordarán en un sólo acto todos los trámites que, por su naturaleza, admitan un impulso simultáneo y no sea obligado su cumplimiento sucesivo? 
 
-a.	Principio de celeridad.
-b.	De transparencia y publicidad.
-c.	Principio de simplificación administrativa. 
-d.	Ninguna es correcta. 
+a)	Principio de celeridad.
+b)	De transparencia y publicidad.
+c)	Principio de simplificación administrativa. 
+d)	Ninguna es correcta. 
 
 4.- Cuando la Administración no tenga por ciertos hechos alegados por los interesados o la naturaleza del procedimiento lo exija, el instructor del mismo acordará la apertura de un periodo de prueba, a fin que puedan practicarse cuantas juzguen pertinentes, por un plazo: 
 
-a.	No superior a treinta días ni inferior a diez. 
-b.	No superior a treinta días ni inferior a quince. 
-c.	No superior a veinte días ni inferior a diez. 
-d.	No superior a veinte días ni inferior a cinco. 
+a)	No superior a treinta días ni inferior a diez. 
+b)	No superior a treinta días ni inferior a quince. 
+c)	No superior a veinte días ni inferior a diez. 
+d)	No superior a veinte días ni inferior a cinco. 
 
 
 
@@ -132,12 +132,3 @@ RESPUESTAS
 14.C
 15.A
 16.B
-
-
-
-
-
-
-
-
-
