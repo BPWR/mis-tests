@@ -1,4 +1,4 @@
-1- ¿Quiénes tendrán capacidad de obrar ante las Administraciones Públicas, según la LPACAP?
+1. ¿Quiénes tendrán capacidad de obrar ante las Administraciones Públicas, según la LPACAP?
 
 a) Los menores incapacitados, cuando la extensión de la incapacitación afecte al ejercicio y defensa de los derechos o intereses de que se trate.
 b) Los menores de edad, siempre con asistencia de persona que ejerza la patria potestad.
@@ -6,7 +6,7 @@ c) Las personas físicas o jurídicas que ostenten capacidad de obrar con arregl
 d) Todas son correctas.
 
 
-2- Se consideran interesados en el procedimiento administrativo quienes lo promuevan: 
+2. Se consideran interesados en el procedimiento administrativo quienes lo promuevan: 
 
 a) Como titulares de derechos o intereses legítimos individuales o colectivos
 b) Como titulares de derechos o intereses legítimos y únicamente a nivel individual.
@@ -15,7 +15,7 @@ d) Aun no siendo los titulares de derechos o intereses legítimos, a nivel indiv
  
 
 
-3- Según la LPACAP, los interesados: 
+3. Según la LPACAP, los interesados: 
 
 a) Deberán identificarse electrónicamente ante las Administraciones Públicas.
 b) Podrán identificarse electrónicamente ante las Administraciones Públicas.
@@ -24,7 +24,7 @@ d) Ninguna es correcta.
 
 
 
-4- Según la LPACAP, como norma general, cuando los plazos se señalen por días: 
+4. Según la LPACAP, como norma general, cuando los plazos se señalen por días: 
 
 a) Deberá expresarse si se trata de días hábiles o naturales.
 b) Deberá expresarse el último día a efectos del cómputo del plazo
@@ -32,7 +32,7 @@ c) Se entiende que éstos son hábiles, excluyéndose del cómputo los domingos 
 d) Se entiende que éstos son hábiles, excluyéndose del cómputo los sábados, los domingos y los declarados festivos.
 
 
-5- Según la LPACAP, los actos de las Administraciones Públicas sujetos al Derecho Administrativo: 
+5. Según la LPACAP, los actos de las Administraciones Públicas sujetos al Derecho Administrativo: 
 
 a) Serán justificables con arreglo a lo dispuesto en dicha Ley.
 b) No serán ejecutivos.
@@ -40,7 +40,7 @@ c) Serán ejecutivos con arreglo a lo dispuesto en dicha Ley.
 d) Serán justificables con arreglo a lo dispuesto en la Constitución.
 
 
-6- Según la LPACAP, la eficacia de los actos de las Administraciones Públicas sujetos al Derecho Administrativo, quedará demorada:
+6. Según la LPACAP, la eficacia de los actos de las Administraciones Públicas sujetos al Derecho Administrativo, quedará demorada:
 
 a) Cuando se trate de actos que se dicten en sustitución de actos anulados.
 b) Cuando se trate de la motivación de actos que pongan fin a los procedimientos selectivos y de concurrencia competitiva.
@@ -49,7 +49,7 @@ d) Cuando así lo exija el contenido del acto o esté supeditada a su notificaci
 
 
 
-7- Los actos de las Administraciones Públicas que lesionen los derechos y libertades susceptibles de amparo constitucional son: 
+7. Los actos de las Administraciones Públicas que lesionen los derechos y libertades susceptibles de amparo constitucional son: 
 
 a) Nulos de pleno derecho.
 b) Anulables.
@@ -57,7 +57,7 @@ c) Convalidables.
 d) Todas las respuestas son correctas.
 
 
-8- Serán nulas de pleno derecho las disposiciones administrativas: 
+8. Serán nulas de pleno derecho las disposiciones administrativas: 
 
 a) Que establezcan la retroactividad de disposiciones sancionadoras no favorables o restrictivas de derechos individuales.
 b) Que vulneren la constitución, las leyes u otras disposiciones administrativas de rango superior.
@@ -65,7 +65,7 @@ c)  Que regulen materias reservadas a la Ley.
 d) Todas las respuestas son correctas.
 
 
-9- Según la Ley 9/2017, de 8 de noviembre, los contratos que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles, son: 
+9. Según la Ley 9/2017, de 8 de noviembre, los contratos que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles, son: 
 
 a) Contratos de obras.
 b) Contratos de servicios.
@@ -73,7 +73,7 @@ c) Contratos de suministro.
 d) Contratos de gestión de servicios públicos.
 
 
-10- Están sujetos a regulación armonizada los contratos de obras y los contratos de concesión de obras cuyo valor estimado sega igual o superior a: 
+10. Están sujetos a regulación armonizada los contratos de obras y los contratos de concesión de obras cuyo valor estimado sega igual o superior a: 
 
 a) 5 538 000 euros.
 b) 4 548 000 euros.
@@ -81,7 +81,7 @@ c) 3 548 000 euros.
 d) 2 548 000 euros.
 
 
-11- Los contratos celebrados por entidades del sector público que no reúnan la condición de poder adjudicador, tienen la consideración de: 
+11. Los contratos celebrados por entidades del sector público que no reúnan la condición de poder adjudicador, tienen la consideración de: 
 
 a) Contratos administrativos.
 b) Contratos privados.
@@ -89,7 +89,7 @@ c) Contratos administrativos especiales.
 d) Contratos mixtos.
 
 
-12- La Ley 9/2017, de 8 de noviembre, tiene por objeto regular la contratación del sector público, a fin de asegurar, en conexión con el objetivo de estabilidad presupuestaria y control del gasto, y el principio de integridad, una eficiente utilización de los fondos destinados a la realización de obras, la adquisición de bienes y la contratación de servicios mediante: 
+12. La Ley 9/2017, de 8 de noviembre, tiene por objeto regular la contratación del sector público, a fin de asegurar, en conexión con el objetivo de estabilidad presupuestaria y control del gasto, y el principio de integridad, una eficiente utilización de los fondos destinados a la realización de obras, la adquisición de bienes y la contratación de servicios mediante: 
 
 a) La exigencia de la definición previa de las necesidades a satisfacer.
 b) La salvaguarda de la libre competencia
