@@ -35,7 +35,7 @@ c) Serán ejecutivos con arreglo a lo dispuesto en dicha Ley.
 d) Serán justificables con arreglo a lo dispuesto en la Constitución.
 
 
-6- Según la LPACAP, la eficacia de los actos de las Administraciones Públicas sujetos al Derecho Administrativo, quedará demorada: 
+6. Según la LPACAP, la eficacia de los actos de las Administraciones Públicas sujetos al Derecho Administrativo, quedará demorada: 
 
 a) Cuando se trate de actos que se dicten en sustitución de actos anulados.
 b) Cuando se trate de la motivación de actos que pongan fin a los procedimientos selectivos y de concurrencia competitiva.
@@ -76,7 +76,7 @@ c) 3 548 000 euros.
 d) 2 548 000 euros.
 
 
-11- Los contratos celebrados por entidades del sector público que no reúnan la condición de poder adjudicador, tienen la consideración de: 
+11. Los contratos celebrados por entidades del sector público que no reúnan la condición de poder adjudicador, tienen la consideración de: 
 
 a) Contratos administrativos.
 b) Contratos privados.
@@ -84,7 +84,7 @@ c) Contratos administrativos especiales.
 d) Contratos mixtos.
 
 
-12- La Ley 9/2017, de 8 de noviembre, tiene por objeto regular la contratación del sector público, a fin de asegurar, en conexión con el objetivo de estabilidad presupuestaria y control del gasto, y el principio de integridad, una eficiente utilización de los fondos destinados a la realización de obras, la adquisición de bienes y la contratación de servicios mediante: 
+12. La Ley 9/2017, de 8 de noviembre, tiene por objeto regular la contratación del sector público, a fin de asegurar, en conexión con el objetivo de estabilidad presupuestaria y control del gasto, y el principio de integridad, una eficiente utilización de los fondos destinados a la realización de obras, la adquisición de bienes y la contratación de servicios mediante: 
 
 a) La exigencia de la definición previa de las necesidades a satisfacer.
 b) La salvaguarda de la libre competencia
