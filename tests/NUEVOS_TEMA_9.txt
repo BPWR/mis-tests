@@ -1,0 +1,57 @@
+1. ¿Cuál fue la principal finalidad de la Ley Orgánica 3/2018?
+a)	Aumentar la transparencia en la administración pública
+b)	Proteger los datos personales de los ciudadanos
+c)	Facilitar el comercio electrónico
+d)	Regular la propiedad intelectual
+ 
+ 
+2.	¿A qué normativa europea se adapta la Ley Orgánica 3/2018?
+a)	Reglamento UE 2016/679
+b)	Directiva 95/46/CE
+c)	Directiva 2002/58/CE
+d)	Reglamento UE 2017/1128
+ 
+ 
+3. ¿Cuál de los siguientes derechos no está reconocido por la Ley Orgánica 3/2018?
+a)	Derecho a la rectificación
+b)	Derecho a la portabilidad de datos
+c)	Derecho a la libertad de expresión
+d)	Derecho al olvido
+ 
+ 
+4. En cuanto a la obtención del consentimiento para el tratamiento de datos personales, la Ley Orgánica 3/2018 establece que:
+a)	Es suficiente el consentimiento tácito
+b)	El consentimiento debe ser siempre expreso
+c)	El consentimiento debe ser claro, específico e informado
+d)	No es necesario el consentimiento si los datos son anónimos
+ 
+  
+5. En el cumplimiento de las obligaciones referidas a la designación de un delegado de protección de datos, los responsables y encargados del tratamiento podrán establecer la dedicación completa o a tiempo parcial del delegado, entre otros criterios, en función de:
+a)	El volumen de los tratamientos
+b)	La categoría especial de los datos tratados
+c)	Los riesgos para los derechos o libertades de los interesados
+d)	Todas son correctas
+ 
+ 
+6. ¿Cuál de las siguientes entidades es responsable de velar por el cumplimiento de la Ley Orgánica 3/2018?
+a)	El Gobierno de España
+b)	La Agencia Española de Protección de Datos AEPD
+c)	El Parlamento español
+d)	La Fiscalía General del Estado
+ 
+ 
+7. ¿Qué establece la Ley Orgánica 3/2018 respecto a los datos de menores de edad?
+a)	No se pueden recoger datos de menores en absoluto
+b)	Se puede obtener el consentimiento de forma implícita
+c)	Se requiere el consentimiento de los padres o tutores para menores de 14 años
+d)	Se considera que los menores pueden dar su consentimiento a partir de los 12 años
+
+RESPUESTAS
+
+1.B
+2.A
+3.C
+4.C
+5.D
+6.B
+7.C
